@@ -62,7 +62,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="my-28">
+        <div className="my-28 border-t border-white pt-20">
           <p className="text-white mb-5 text-lg text-center">
             Our Beloved Partners
           </p>
