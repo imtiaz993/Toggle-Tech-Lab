@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className="mt-20">
+    <div className="w-3/4 mx-auto mt-20">
       <h1 className="text-white text-2xl mb-8">Awesome Team Members</h1>
       <div className="grid grid-cols-4">
         <div className="flex flex-col items-center justify-center mb-12">

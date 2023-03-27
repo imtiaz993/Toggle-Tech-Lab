@@ -9,9 +9,9 @@ module.exports = {
     fontSize: {
       'sm':'14px',
       'base': '18px',
-      'lg': '20px',
+      'lg': '16px',
       'md':'24px',
-      'xl': '32px',
+      'xl': '22px',
       '2xl': '48px',
       '3xl': '64px',
       '4xl': '77px',
@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(136.04deg, #131313 0.89%, rgba(8, 8, 8, 0) 100.93%)',
+        'navbar-gredient': 'linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%)',
       },
       boxShadow: {
         'custom': '0px 25px 50px rgba(0, 0, 0, 0.1)',

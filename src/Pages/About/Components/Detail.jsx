@@ -2,7 +2,7 @@ import React from "react";
 
 const Detail = () => {
   return (
-    <div>
+    <div className="w-3/4 mx-auto">
       {" "}
       <div className="grid grid-cols-2 gap-12 items-center mt-20">
         <div className="">

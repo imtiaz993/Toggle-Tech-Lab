@@ -3,7 +3,6 @@ import React from "react";
 const Detail = () => {
   return (
     <div>
-      {" "}
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">
           Toyota Role-Based Learning VR Program for Safety Training
