@@ -58,7 +58,9 @@ const WhyChoose = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-60 "
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          style={{
+            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
+          }}
         >
           <div className="rounded-2xl px-16 pt-14 ">
             <img className="w-14 h-14" src="/icons/Why Choose-4.svg" alt="" />
@@ -68,7 +70,9 @@ const WhyChoose = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-60"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          style={{
+            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
+          }}
         >
           <div className="rounded-2xl pt-14 px-16">
             <img className="w-14 h-14" src="/icons/Why Choose-5.svg" alt="" />
@@ -79,7 +83,9 @@ const WhyChoose = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-60"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          style={{
+            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
+          }}
         >
           <div className="rounded-2xl pt-14 px-16">
             <img className="w-14 h-14" src="/icons/Why Choose-6.svg" alt="" />
@@ -88,7 +94,9 @@ const WhyChoose = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-52"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          style={{
+            backgroundImage: "url('/images/About/Why Choose BG 3.png')",
+          }}
         >
           <div className="rounded-2xl pt-14 px-16">
             <img className="w-14 h-14" src="/icons/Why Choose-7.svg" alt="" />

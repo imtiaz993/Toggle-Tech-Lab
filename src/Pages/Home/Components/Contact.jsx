@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       className="bg-top bg-no-repeat bg-cover py-28"
-      style={{ backgroundImage: "url('/images/Home/About.png')" }}
+      style={{ backgroundImage: "url('/images/Home/About BG.png')" }}
     >
       <div className="flex justify-between items-center w-3/4 mx-auto">
         <div className="w-3/5">

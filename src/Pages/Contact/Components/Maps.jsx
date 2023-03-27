@@ -8,13 +8,14 @@ const Maps = () => {
         <p className="text-white text-xl mb-8">Canada</p>
         <div className="h-64">
           <iframe
+            title="Canada"
             width="100%"
             height="100%"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=Westminste &t=&z=10&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
-            marginheight="0"
+            marginHeight="0"
             marginwidth="0"
           ></iframe>
         </div>
@@ -23,13 +24,14 @@ const Maps = () => {
         <p className="text-white text-xl mb-8">India Branch</p>
         <div className="h-64">
           <iframe
+            title="India"
             width="100%"
             height="100%"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=Westminste &t=&z=10&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
-            marginheight="0"
+            marginHeight="0"
             marginwidth="0"
           ></iframe>
         </div>
@@ -38,13 +40,14 @@ const Maps = () => {
         <p className="text-white text-xl mb-8">Qatar Branch</p>
         <div className="h-64">
           <iframe
+            title="Qatar"
             width="100%"
             height="100%"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=Westminste &t=&z=10&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
-            marginheight="0"
+            marginHeight="0"
             marginwidth="0"
           ></iframe>
         </div>
