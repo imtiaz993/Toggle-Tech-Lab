@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsList from "../../../Common/ProjectsList";
+import { Link } from 'react-router-dom'
 
 const CaseStudy = () => {
   return (
@@ -10,9 +11,11 @@ const CaseStudy = () => {
           Our Works
           <br /> Speaks For Itself
         </h1>
+        <Link to="/portfolio">
         <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
           View All Services
         </button>
+        </Link>
       </div>
       <ProjectsList />
     </div>

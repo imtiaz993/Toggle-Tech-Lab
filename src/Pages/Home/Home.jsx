@@ -11,9 +11,16 @@ import ScheduleCall from "../../Common/ScheduleCall";
 import LetsTalk from "../../Common/LetsTalk";
 
 const Home = () => {
+  const handleClickScroll = () => {
+    const element = document.getElementById('build-section');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
-      <Hero />
+      <Hero handleClickScroll={handleClickScroll}/>
       <Partners />
       <Build />
       <ProptypeProduct />

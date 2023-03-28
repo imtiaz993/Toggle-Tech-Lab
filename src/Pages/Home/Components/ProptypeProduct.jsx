@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 const ProptypeProduct = () => {
   return (
     <div className="bg-light-grey">
@@ -17,9 +17,11 @@ const ProptypeProduct = () => {
             that allow startups to visualize their concepts in a fully immersive
             environment.
           </p>
+          <Link to="/about">
           <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
             Read More
           </button>
+          </Link>
         </div>
       </div>
     </div>

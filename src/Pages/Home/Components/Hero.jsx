@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Hero = () => {
+const Hero = ({handleClickScroll}) => {
   return (
     <div className="relative">
       <img className="w-full" src="/images/Home/Hero.png" alt="" />
@@ -19,12 +20,16 @@ const Hero = () => {
           captivate investors
         </p>
         <div className="flex mt-8">
-          <button className="text-black font-medium text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
+        
+          <button onClick={handleClickScroll} className="text-black font-medium text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
             Get Started
           </button>
+          
+          <Link to="/portfolio">
           <button className="text-gold text-lg border-2 border-white rounded-3xl py-2 px-5">
             Watch a Demo
           </button>
+          </Link>
         </div>
         </div>
         </div>

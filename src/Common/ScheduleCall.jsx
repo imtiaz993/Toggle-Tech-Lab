@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const ScheduleCall = () => {
   return (
@@ -16,8 +17,10 @@ const ScheduleCall = () => {
           </p>
         </div>
         <div className="mt-4 lg:mt-0 lg:w-2/5 flex items-center lg:justify-end">
-          <h1 className="text-2xl text-gold mr-4">Schedule a Call</h1>
+        <Link to="/contact" className="flex items-center lg:justify-end">
+          <h1 className="text-2xl text-gold mr-4 underline">Schedule a Call</h1>
           <img src="/icons/arrow.svg" alt="" />
+        </Link>
         </div>
       </div>
     </div>

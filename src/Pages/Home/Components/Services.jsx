@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
@@ -6,9 +7,11 @@ const Services = () => {
       <h1 className="text-gold text-base uppercase mb-4">Services</h1>
       <div className="flex justify-between items-center  mb-8">
         <h1 className="text-white text-2xl">What We Do</h1>
+        <Link to="/service">
         <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
           View All Services
         </button>
+        </Link>
       </div>
       <div className="grid grid-cols-3 gap-8 mt-12">
         <div
@@ -22,7 +25,9 @@ const Services = () => {
               We specialize in creating virtual and augmented reality prototypes
               that allow startups
             </p>
+            <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>
+            </Link>
           </div>
         </div>
         <div
@@ -36,7 +41,9 @@ const Services = () => {
               We specialize in creating virtual and augmented reality prototypes
               that allow startups
             </p>
+            <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>
+            </Link>
           </div>
         </div>
         <div
@@ -50,7 +57,9 @@ const Services = () => {
               We specialize in creating virtual and augmented reality prototypes
               that allow startups
             </p>
+            <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>
+            </Link>
           </div>
         </div>
       </div>
