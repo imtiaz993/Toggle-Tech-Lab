@@ -5,7 +5,7 @@ import Footer from "../Common/Footer";
 const Layout = ({children}) => {
   return (
     <div className="bg-dark">
-      <div className="mx-auto max-w-screen-2xl">
+      <div className="">
         <Navbar />
         {children}
         <Footer />

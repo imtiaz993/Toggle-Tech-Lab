@@ -5,7 +5,7 @@ const ProjectsList = () => {
     <div className="grid grid-cols-3 gap-8 mt-8 mb-12">
     <div className="mb-4">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-1.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-1.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "
@@ -19,7 +19,7 @@ const ProjectsList = () => {
     </div>
     <div className="mb-4">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-2.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-2.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "
@@ -33,7 +33,7 @@ const ProjectsList = () => {
     </div>
     <div className="mb-4">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-3.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-3.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "
@@ -47,7 +47,7 @@ const ProjectsList = () => {
     </div>
     <div className="mb-4">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-4.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-4.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "
@@ -61,7 +61,7 @@ const ProjectsList = () => {
     </div>
     <div className="mb-4">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-5.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-5.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "
@@ -75,7 +75,7 @@ const ProjectsList = () => {
     </div>
     <div className="mb-6">
       <div className="relative">
-        <img src="/images/Portfolio/Porfolio-6.png" alt="" />
+        <img className='w-full' src="/images/Portfolio/Porfolio-6.png" alt="" />
         <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
           <img
             className="w-10 h-11 "

@@ -8,13 +8,13 @@ module.exports = {
     },
     fontSize: {
       'sm':'14px',
-      'base': '18px',
-      'lg': '16px',
-      'md':'24px',
-      'xl': '22px',
-      '2xl': '48px',
-      '3xl': '64px',
-      '4xl': '77px',
+      'base': '17px',
+      'lg': '18px',
+      'md':'20px',
+      'xl': '24px',
+      '2xl': '36px',
+      '3xl': '48px',
+      '4xl': '60px',
     },
     extend: {
       colors: {
@@ -34,6 +34,9 @@ module.exports = {
       },
       maxWidth: {
         'screen-2xl': '1720px',
+      },
+      lineHeight: {
+        '12': '68px',
       }
     },
   },

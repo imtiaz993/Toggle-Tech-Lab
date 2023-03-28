@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-navbar-gredient absolute z-10  max-w-screen-2xl mx-auto">
+    <div className="w-full bg-navbar-gredient absolute z-10  mx-auto">
       <div className="w-11/12 mx-auto flex justify-between items-center pt-6 pb-4 ">
         <img src="/icons/Logo.svg" alt="" />
         <div className="flex items-center text-lg">
