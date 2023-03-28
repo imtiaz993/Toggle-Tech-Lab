@@ -8,10 +8,12 @@ import PortfolioDetails from "../Pages/Portfolio Details/PortfolioDetails";
 import Services from "../Pages/Services/Services";
 import ServiceDetails from "../Pages/Service Details/ServiceDetails";
 import Layout from "../Layout/Layout";
+import ScrollToTop from "../Common/ScrollToTop";
 
 const WebRoutes = () => {
   return (
     <BrowserRouter>
+     <ScrollToTop/>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
