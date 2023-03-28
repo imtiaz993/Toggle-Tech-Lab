@@ -5,7 +5,7 @@ const ProjectsList = ({sorted}) => {
  
   return (
     <div className="grid grid-cols-3 gap-8 mt-8 mb-12">
-      {sorted.map((item, index)=>
+      {sorted && sorted.map((item, index)=>
        <Link key={index} to="/portfolio-details/Medical-VR-Intubation-Simulation">
        <div className="mb-4">
          <div className="relative">
