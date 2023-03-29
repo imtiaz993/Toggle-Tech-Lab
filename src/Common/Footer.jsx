@@ -8,13 +8,12 @@ const Footer = () => {
         <Link to='/about' className="mr-4">About Us</Link>
         <Link to='/contact' className="mr-4">Contact</Link>
         <Link to='/service' className="mr-4">Services</Link>
-        <Link to='/' className="mr-4">Privacy Policy</Link>
-        <Link to='/' className="mr-4">Terms & Conditions</Link>
+        {/* <Link to='/' className="mr-4">Privacy Policy</Link>
+        <Link to='/' className="mr-4">Terms & Conditions</Link> */}
       </div>
       <div>
         <p className="mt-2 lg:mt-0">
-          Copyright 2017-2023 Toggle Tech Lab subsidiary of Let’s JavaScript!
-          Corp.
+          Copyright 2017-2023 Toggle Tech Lab Ltd.
         </p>
       </div>
     </div>

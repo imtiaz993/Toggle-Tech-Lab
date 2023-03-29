@@ -17,7 +17,7 @@ const Locations = () => {
         <div className="flex items-start">
           <img className="mr-2" src="/icons/location.svg" alt="" />
           <p className="text-grey text-lg">
-            National Car Bazar, Johal Market, Zira, Punjab 142047
+            52 Johal Market, Zira, Punjab 142047
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@ const SidebarDetailWrapper = () => {
       <Sidebar />
       <div className="w-4/6">
         <Detail />
-        <PrevNext />
+        {/* <PrevNext /> */}
       </div>
     </div>
   );

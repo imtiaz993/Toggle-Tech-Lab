@@ -6,7 +6,7 @@ const DetailPrevNextWrapper = () => {
   return (
     <div className="w-3/4 mx-auto">
       <Detail />
-      <PrevNext />
+      {/* <PrevNext /> */}
     </div>
   );
 };
