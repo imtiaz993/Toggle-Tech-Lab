@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import PrevNext from "../../../Common/PrevNext";
+// import PrevNext from "../../../Common/PrevNext";
 import Detail from "./Detail";
 
 const SidebarDetailWrapper = () => {
