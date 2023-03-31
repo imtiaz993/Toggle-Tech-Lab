@@ -3,37 +3,135 @@ import ProjectsList from "../../../Common/ProjectsList";
 
 const Projects = () => {
   const projects = [
+    //medical
     {
-      type: "Immersive Enrionments",
-      name: "Medical VR",
-      img: "/images/Portfolio/Porfolio-1.png",
+      type: "Medical Simulations",
+      name: "RN Training",
+      img: "/images/Portfolio/Medical/VRRN.png",
+    },
+    {
+      type: "Medical Simulations",
+      name: "Providing Comprehensive Therapy For Children With Autism Spectrum Disorder",
+      img: "/images/Portfolio/Medical/ASU.png",
+    },
+    {
+      type: "Medical Simulations",
+      name: "Body walkthrough in VR",
+      img: "/images/Portfolio/Medical/UE_MedicalWalkthrough.PNG",
+    },
+    {
+      type: "Medical Simulations",
+      name: "Noble Pharma App",
+      img: "/images/Portfolio/Medical/noble.png",
+    },
+
+    {
+      type: "Medical Simulations",
+      name: "Doffle in and out training",
+      img: "/images/Portfolio/Medical/doffle.png",
+    },
+//education
+    {
+      type: "Training",
+      name: "Learn the Sign Language in VR",
+      img: "/images/Portfolio/Training/alphabet.png",
     },
     {
       type: "Training",
-      name: "Medical VR",
-      img: "/images/Portfolio/Porfolio-2.png",
-    },
-    {
-      type: "Immersive Enrionments",
-      name: "Medical VR",
-      img: "/images/Portfolio/Porfolio-3.png",
-    },
-    {
-      type: "Brand Activations",
-      name: "Medical VR",
-      subType: "Brand Activations",
-      img: "/images/Portfolio/Porfolio-4.png",
-    },
-    {
-      type: "Brand Activations",
-      name: "Medical VR",
-      img: "/images/Portfolio/Porfolio-5.png",
+      name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
+      img: "/images/Portfolio/Training/solar.png",
     },
     {
       type: "Training",
-      name: "Medical VR",
-      img: "/images/Portfolio/Porfolio-6.png",
+      name: "Immersive Mind",
+      img: "/images/Portfolio/Training/immersivemind.png",
     },
+    {
+      type: "Training",
+      name: "Chemical Engineering Simulation",
+      img: "/images/Portfolio/Games/engineering.png",
+    },
+
+    //immersive enviornments
+    {
+      type: "Immersive Enviornments",
+      name: "EcoPod",
+      img: "/images/Portfolio/Immersive_Env/ecopod1.png",
+    },
+    {
+      type: "Immersive Enviornments",
+      name: "360 degree music video",
+      img: "/images/Portfolio/Immersive_Env/360music.png",
+    },
+
+
+    //Brand activation
+    
+    {
+      type: "Brand Activations",
+      name: "The ART Room - Ukraine",
+      img: "/images/Portfolio/AR/ukraine_ar.jpeg",
+    },
+    //games 
+    {
+      type: "Games",
+      name: "Chester Cheetos",
+      img: "/images/Portfolio/Games/chester.png",
+    },
+    {
+      type: "Games",
+      name: "Police Simulator",
+      img: "/images/Portfolio/Games/policesim.png",
+    },
+    {
+      type: "Games",
+      name: "Chemical Engineering Simulation",
+      img: "/images/Portfolio/Games/engineering.png",
+    },
+
+
+    
+    //AI
+    {
+
+      type: "AI",
+      name: "Customer service in the Metaverse",
+      img: "/images/Portfolio/AI/DCL_voctiv.png",
+    },
+    {
+
+      type: "AI",
+      name: "Waajoo Africa Metaverse Prototype",
+      img: "/images/Portfolio/AI/waajoo.png",
+    },
+
+// Augmented reality
+{
+  type: "AR",
+  name: "Sprint AR",
+  img: "/images/Portfolio/AR/sprintAR.png",
+},
+{
+  type: "AR",
+  name: "Noble Pharma App",
+  img: "/images/Portfolio/Medical/noble.png",
+},
+{
+  type: "AR",
+  name: "The ART Room - Ukraine",
+  img: "/images/Portfolio/AR/ukraine_ar.jpeg",
+},
+{
+  type: "AR",
+  name: "Inverse Surveillance",
+  img: "/images/Portfolio/AR/inverse.png",
+},
+{
+  type: "AR",
+  name: "The United Prospectors Guild",
+  img: "/images/Portfolio/AR/unitedgild2.png",
+},
+
   ];
   const [sorted, setSorted] = useState(projects);
   const [selected, setSelected] = useState("All Projects");
@@ -68,15 +166,15 @@ const Projects = () => {
           </div>
           <div
             onClick={() => {
-              handleSort("Immersive Enrionments");
+              handleSort("Immersive Enviornments");
             }}
             className={`rounded-3xl cursor-pointer text-base  border ${
-              selected === "Immersive Enrionments"
+              selected === "ImmersiveEnviornments"
                 ? "border-white text-white"
                 : "border-grey text-grey"
             } py-1 px-3 mr-2`}
           >
-            Immersive Enrionments
+            Immersive Enviornments
           </div>
           <div
             onClick={() => {
@@ -102,6 +200,62 @@ const Projects = () => {
           >
             Training
           </div>
+          <div
+            onClick={() => {
+              handleSort("Games");
+            }}
+            className={`rounded-3xl cursor-pointer text-base  border ${
+              selected === " Games"
+                ? "border-white text-white"
+                : "border-grey text-grey"
+            } py-1 px-3 mr-2`}
+          >
+            2D & 3D Games
+          </div>
+
+          <div
+            onClick={() => {
+              handleSort("Medical Simulations");
+            }}
+            className={`rounded-3xl cursor-pointer text-base  border ${
+              selected === " Games"
+                ? "border-white text-white"
+                : "border-grey text-grey"
+            } py-1 px-3 mr-2`}
+          >
+            Medical Simulations 
+          </div>
+
+          <div
+            onClick={() => {
+              handleSort("AI");
+            }}
+            className={`rounded-3xl cursor-pointer text-base  border ${
+              selected === " Games"
+                ? "border-white text-white"
+                : "border-grey text-grey"
+            } py-1 px-3 mr-2`}
+          >
+            AI, Metaverse
+          </div>
+
+
+          <div
+            onClick={() => {
+              handleSort("AR");
+            }}
+            className={`rounded-3xl cursor-pointer text-base  border ${
+              selected === " AR"
+                ? "border-white text-white"
+                : "border-grey text-grey"
+            } py-1 px-3 mr-2`}
+          >
+            Augmented reality
+          </div>
+
+
+
+
         </div>
       </div>
       <ProjectsList sorted={sorted} />

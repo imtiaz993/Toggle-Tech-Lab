@@ -5,71 +5,75 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">
-          Toyota Role-Based Learning VR Program for Safety Training
+       Providing Comprehensive Therapy For Children With Autism Spectrum Disorder by Using a Virtual Reality Application
+
         </h1>
-        <img src="/images/Portfolio Details/detail-1.png" alt="" />
+        <img src="/images/Portfolio Details/ASU/asulogo.jpg" alt="" />
         <p className="text-grey text-lg mt-6">
-          Our team will work closely with you to understand your goals and
-          create a tailored XR prototype that meets your needs and exceeds your
-          expectations.
+        We helped a lab at the Arizona State University, Fulton School of Engineering develop a virtual reality prototype to
+        submit to the National Science Foundation (NSF).
         </p>
         <p className="text-grey text-lg mt-6">
-          At our XR agency, we’re passionate about innovation and creativity,
-          and we’re dedicated to helping startups bring their ideas to life. If
-          you’re ready to take your startup to the next level, contact us today
-          to learn more about our services and how we can help you succeed.
+        Studies have shown that many children with ASD prefer immersive interactive technologies, 
+        and this preference can be explored to develop systems that may inspire creative learning through 
+        immersive play. The proposed solution consists of an immersive
+         VR program integrated with biometric feedback modules which allow users to explore, 
+         learn, and tackle new challenges within the safety of a virtual environment. Additionally,
+          this could be done with no time constraints, as many times as that individual desires to use 
+          the program, while reformatting mundane material in a manner that is more consistent with their 
+          hyper-focused topic of interest (from <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">here</a>)
+        </p>
+        <p className="text-grey text-lg mt-6">
+        The virtual reality prototype tests whether children across the autism spectrum disorder (ASD) respond in VR. 
+        Any interaction/response is stored in a database which can then be accessed by the lab.
+        The researcher provides a voice command via Google Cloud to the NPC (Non Player Character) asking the child to pick up 
+        the object.
+        There are 2 types of responses that the lab wanted to test:
+        <ol>
+<li>If an object/toy was picked up</li>
+<li>If so, then what kind of object/toy was picked up</li>
+        </ol>
+
+        </p>
+        
+      </div>
+      <div className="mb-16">
+        <h1 className="text-white text-2xl mb-8">
+          Built for Meta Quest 1 & 2 using Unity Engine
+        </h1>
+        <img src="/images/Portfolio Details/ASU/ASU2.png" alt="" />
+        <p className="text-grey text-lg mt-6">
+          
+        </p>
+        <p className="text-grey text-lg mt-6">
+          
         </p>
       </div>
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">
-          Built for Desktop and HTC Focus 3
-        </h1>
-        <img src="/images/Portfolio Details/detail-2.png" alt="" />
+Results        </h1>
+        <img src="/images/Portfolio Details/ASU/ASU3.png" alt="" />
         <p className="text-grey text-lg mt-6">
-          Our team will work closely with you to understand your goals and
-          create a tailored XR prototype that meets your needs and exceeds your
-          expectations.
+
         </p>
         <p className="text-grey text-lg mt-6">
-          At our XR agency, we’re passionate about innovation and creativity,
-          and we’re dedicated to helping startups bring their ideas to life. If
-          you’re ready to take your startup to the next level, contact us today
-          to learn more about our services and how we can help you succeed.
+        All participants were very receptive towards the VR system and the environment 
+        which was created for this trial. Therefore, successfully confirming the lab's initial hypothesis that children diagnosed with ASD 
+        respond in VR more willingly.
+
         </p>
       </div>
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">
-          Toyota Role-Based Learning VR Program for Safety Training
+          Future direction
         </h1>
-        <img src="/images/Portfolio Details/detail-3.png" alt="" />
+        <img src="/images/Portfolio Details/ASU/ASU1.png" alt="" />
         <p className="text-grey text-lg mt-6">
-          Our team will work closely with you to understand your goals and
-          create a tailored XR prototype that meets your needs and exceeds your
-          expectations.
+       For the next step of the research the lab has decided to further the experience by enriching the 
+       enviornment with more objects that children can interact with in various different ways for example 
+       picking up a ball, bouncing the ball, squeezing it etc
         </p>
-        <p className="text-grey text-lg mt-6">
-          At our XR agency, we’re passionate about innovation and creativity,
-          and we’re dedicated to helping startups bring their ideas to life. If
-          you’re ready to take your startup to the next level, contact us today
-          to learn more about our services and how we can help you succeed.
-        </p>
-      </div>
-      <div className="mb-16">
-        <h1 className="text-white text-2xl mb-8">
-          Built for Desktop and HTC Focus 3
-        </h1>
-        <img src="/images/Portfolio Details/detail-4.png" alt="" />
-        <p className="text-grey text-lg mt-6">
-          Our team will work closely with you to understand your goals and
-          create a tailored XR prototype that meets your needs and exceeds your
-          expectations.
-        </p>
-        <p className="text-grey text-lg mt-6">
-          At our XR agency, we’re passionate about innovation and creativity,
-          and we’re dedicated to helping startups bring their ideas to life. If
-          you’re ready to take your startup to the next level, contact us today
-          to learn more about our services and how we can help you succeed.
-        </p>
+     
       </div>
     </div>
   );

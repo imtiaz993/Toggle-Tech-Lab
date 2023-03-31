@@ -26,48 +26,55 @@ const Testimonials = () => {
           <div className="w-96 border border-dark-grey rounded-xl py-6 px-8 mr-8 mb-3">
             <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
             <p className="text-grey text-lg mt-8">
-              At our XR agency, we’re passionate about innovation and
-              creativity, and we’re dedicated to helping startups bring their
-              ideas to life.
+              
+
+Courteous, professional, great communication skills that really helped us as we are non-technical. 
+We have gotten funding for our pre-seed project from the National Science Foundation (NSF) and will be moving 
+ahead with the team on the next phase.
+
             </p>
-            <h1 className="text-white text-xl mt-8">John Smith</h1>
-            <p className="text-grey text-sm">Chamber Studios</p>
+            <h1 className="text-white text-xl mt-8">Gil R.</h1>
+            <p className="text-grey text-sm">University of Austin</p>
           </div>
         </div>
         <div className="">
           <div className="w-96 border border-dark-grey rounded-xl py-6 px-8 mr-8 mb-3">
             <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
             <p className="text-grey text-lg mt-8">
-              At our XR agency, we’re passionate about innovation and
-              creativity, and we’re dedicated to helping startups bring their
-              ideas to life.
+            I'm extremely happy with the work the team did. They acted independently
+             and solved complex problems that had no ready made solutions before our project. We are 
+             now ready with a working demo  
             </p>
-            <h1 className="text-white text-xl mt-8">Sandra Wilson</h1>
-            <p className="text-grey text-sm">Chamber Studios</p>
+            <h1 className="text-white text-xl mt-8">Nikolai K.</h1>
+            <p className="text-grey text-sm">Voctiv</p>
           </div>
         </div>
         <div className="">
           <div className="w-96 border border-dark-grey rounded-xl py-6 px-8 mr-8 mb-3">
             <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
             <p className="text-grey text-lg mt-8">
-              At our XR agency, we’re passionate about innovation and
-              creativity, and we’re dedicated to helping startups bring their
-              ideas to life.
+             
+
+Very professional and asked all the right questions and was quick to grasp our goal and was able to improve the overall project. She moved our VR project towards completion which helps us to get a VR development Grant in our field. She was thorough, on time and was able to communicate with our team and was quite helpful in refining the project.
+ I will be working with them again.
+
             </p>
-            <h1 className="text-white text-xl mt-8">Cathy Johnson</h1>
-            <p className="text-grey text-sm">Chamber Studios</p>
+            <h1 className="text-white text-xl mt-8">T.J Gill</h1>
+            <p className="text-grey text-sm">Sprite Investment Group</p>
           </div>
         </div>
         <div className="">
           <div className="w-96 border border-dark-grey rounded-xl py-6 px-8 mr-8 mb-3">
             <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
             <p className="text-grey text-lg mt-8">
-              At our XR agency, we’re passionate about innovation and
-              creativity, and we’re dedicated to helping startups bring their
-              ideas to life.
+             
+
+We had a fantastic experience working with Toggle Tech Lab. They are very professional and knowledgeable.
+Clearly understood our requirements and executed them in time. We will definitely be working with them again in the future! Excellent!"
+
             </p>
-            <h1 className="text-white text-xl mt-8">John Smith</h1>
-            <p className="text-grey text-sm">Chamber Studios</p>
+            <h1 className="text-white text-xl mt-8">Viktor S.</h1>
+            <p className="text-grey text-sm">Bond University</p>
           </div>
         </div>
       </div>

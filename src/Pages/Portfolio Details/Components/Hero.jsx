@@ -6,8 +6,8 @@ const Hero = () => {
       <img className="w-full" src="/images/Portfolio Details/Hero.png" alt="" />
       <div className="absolute top-1/3 mt-8 w-full">
       <h1 className="w-3/4 mx-auto text-4xl text-white">
-        Medical VR Intubation
-        <br /> Simulation
+        VR Prototype For National Science Foundation Grant
+        <br /> 
       </h1>
       </div>
     </div>

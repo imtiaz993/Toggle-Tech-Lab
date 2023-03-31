@@ -4,7 +4,7 @@ const Detail = () => {
   return (
     <div className="w-3/4 mx-auto">
       {" "}
-      <div className="grid grid-cols-2 gap-12 items-center mt-20">
+      <div className="grid lg:grid-cols-2 gap-12 items-center mt-20">
         <div className="">
           <img src="/images/Services/2nd Section.png" alt="" />
         </div>
@@ -12,19 +12,23 @@ const Detail = () => {
           <h1 className="text-white text-2xl mb-8">
             Prototypes And Products That Get It
           </h1>
-          <p className="text-grey text-lg mb-4">
-            Welcome to our Toggle Tech Lab, where we help startups and
-            enterprises. turn their ideas into reality.
-          </p>
           <p className="text-grey text-lg">
-            We specialize in creating virtual and augmented reality prototypes
-            that allow startups to visualize their concepts in a fully immersive
-            environment. Our team of experienced developers and designers use
-            the latest technology to bring your vision to life.
+          Welcome to Toggle Tech Lab, the premier destination for turning your concepts into tangible 
+          XR products or services. Since 2018 we have helped over 115 startups and businesses.
+          </p> 
+          <p className="text-grey text-lg">
+
+          At Toggle Tech Lab, we are dedicated to helping both 
+          startups and established businesses achieve their goals by creating cutting-edge
+           virtual and augmented reality prototypes. Our team of highly skilled developers 
+           and designers utilizes the latest technology to deliver fully immersive experiences
+            that bring your vision to life. With our expertise, you can be confident that your
+             project will be executed with precision and excellence. Don't settle for anything less 
+             than the best. Join us at Toggle Tech Lab and let us help you transform your ideas into reality.
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-12 items-center my-20">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center my-20">
         <div>
           <img src="/images/About/Upwork.png" alt="" />
         </div>

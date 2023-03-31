@@ -3,35 +3,31 @@ import ProjectsList from "../../../Common/ProjectsList";
 import { Link } from 'react-router-dom'
 const projects = [
   {
-    type: "Immersive Enrionments",
-    name: "Medical VR",
-    img: "/images/Portfolio/Porfolio-1.png",
+    type: "Virtual Reality",
+    img: "/images/Portfolio/vr.png",
   },
   {
-    type: "Training",
-    name: "Medical VR",
-    img: "/images/Portfolio/Porfolio-2.png",
+    type: "Augmented Reality",
+    img: "/images/Portfolio/ar.png",
   },
   {
-    type: "Immersive Enrionments",
-    name: "Medical VR",
-    img: "/images/Portfolio/Porfolio-3.png",
+    name: "Medical Simulations",
+    img: "/images/Portfolio/medical.png",
   },
   {
-    type: "Brand Activations",
-    name: "Medical VR",
-    subType: "Brand Activations",
-    img: "/images/Portfolio/Porfolio-4.png",
+    name: "Training Simulations",
+    img: "/images/Portfolio/training.png",
   },
+
   {
-    type: "Brand Activations",
-    name: "Medical VR",
-    img: "/images/Portfolio/Porfolio-5.png",
+    type: "AI Metaverse",
+    img: "/images/Portfolio/metaverse.png",
   },
+
   {
-    type: "Training",
-    name: "Medical VR",
-    img: "/images/Portfolio/Porfolio-6.png",
+    type: "Games",
+    name: "3D and 2D Games",
+    img: "/images/Portfolio/games.png",
   },
 ];
 const CaseStudy = () => {

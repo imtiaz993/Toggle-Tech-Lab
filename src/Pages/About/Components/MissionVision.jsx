@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <div className="w-3/4 mx-auto grid grid-cols-2 gap-12 mb-20">
+    <div className="w-3/4 mx-auto grid lg:grid-cols-2 gap-12 mb-20">
       <div>
         <h1 className="text-2xl text-white mb-8">Our mission</h1>
         <p className="text-grey text-lg mb-4">

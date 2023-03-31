@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="w-1/4">
+    <div className="lg:w-1/4">
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
           Application Development
@@ -11,26 +11,14 @@ const Sidebar = () => {
           <ul className="text-grey text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                Social Camera Effects, Filters & Lenses for Facebook, Instagram
-                and Snapchat
+               Unity Game Engine
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Web AR </div>
+              <div className="text-grey">Google Cloud </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Mobile AR Apps </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-                IoT / HMD AR and AR Glasses Development for Magic Leap and
-                HoloLens
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-                AR for Print - Murals, Posters and Packaging{" "}
-              </div>
+              <div className="text-grey">3DS Max</div>
             </li>
           </ul>
         </div>
@@ -43,12 +31,7 @@ const Sidebar = () => {
           <ul className="text-grey text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                VR Content Creation - Live Action 360 Video Production Services
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-                VR Content Creation - CGI and VFX{" "}
+               Meta Quest 1 & 2
               </div>
             </li>
           </ul>
@@ -62,12 +45,12 @@ const Sidebar = () => {
           <ul className="text-grey text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                An Insider’s Guide to Social Augmented Reality{" "}
+                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
               </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">
-                Facebook, Instagram AR Filters and Snapchat AR Lenses{" "}
+              https://www.neurodivr.com/
               </div>
             </li>
           </ul>

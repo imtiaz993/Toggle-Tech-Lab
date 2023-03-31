@@ -13,7 +13,7 @@ const Services = () => {
         </button>
         </Link>
       </div>
-      <div className="grid grid-cols-3 gap-8 mt-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-96 "
           style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
@@ -23,7 +23,8 @@ const Services = () => {
             <h1 className="text-white text-xl my-4">XR Prototyping</h1>
             <p className="text-grey text-lg">
               We specialize in creating virtual and augmented reality prototypes
-              that allow startups
+              that allow startups to visualize their concepts in a fully immersive environment.
+
             </p>
             <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>
@@ -38,8 +39,7 @@ const Services = () => {
             <img className="w-14 h-14" src="/icons/Why Choose-2.svg" alt="" />
             <h1 className="text-white text-xl my-4">XR Experiences</h1>
             <p className="text-grey text-lg">
-              We specialize in creating virtual and augmented reality prototypes
-              that allow startups
+              We create XR experiences such as immersive tours, meditative experiences and more
             </p>
             <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>
@@ -54,8 +54,8 @@ const Services = () => {
             <img className="w-14 h-14" src="/icons/Why Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">XR Training</h1>
             <p className="text-grey text-lg">
-              We specialize in creating virtual and augmented reality prototypes
-              that allow startups
+              Over 9 years of experience in creating training simulations across various industries such as healthcare,
+              engineering & education.
             </p>
             <Link to="/about">
             <p className="text-gold text-lg mt-4">Read More</p>

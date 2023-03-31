@@ -19,7 +19,7 @@ const LetsTalk = () => {
         </div>
 
         <div>
-          <h1 className="text-xl mb-3 ">India Branch</h1>
+          <h1 className="text-xl mb-3 ">India</h1>
           <div className="flex items-start">
             <img className="mr-2" src="/icons/location.svg" alt="" />
             <p className="text-grey text-lg">
@@ -28,7 +28,7 @@ const LetsTalk = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-xl mb-3 ">Qatar Branch</h1>
+          <h1 className="text-xl mb-3 ">Qatar </h1>
           <div className="flex items-start">
             <img className="mr-2" src="/icons/location.svg" alt="" />
             <p className="text-grey text-lg">

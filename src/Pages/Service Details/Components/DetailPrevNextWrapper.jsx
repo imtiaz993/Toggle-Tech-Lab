@@ -1,6 +1,6 @@
 import React from "react";
 import Detail from "./Detail";
-// import PrevNext from "../../../Common/PrevNext";
+import PrevNext from "../../../Common/PrevNext";
 
 const DetailPrevNextWrapper = () => {
   return (

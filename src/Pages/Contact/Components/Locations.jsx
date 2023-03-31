@@ -2,7 +2,7 @@ import React from "react";
 
 const Locations = () => {
   return (
-    <div className="w-1/4">
+    <div className="lg:w-1/4">
       <div className="mb-8">
         <h1 className="text-white text-xl mb-3">Canada</h1>
         <div className="flex items-start">

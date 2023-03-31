@@ -7,14 +7,14 @@ const Contact = () => {
       className="bg-top bg-no-repeat bg-cover py-28"
       style={{ backgroundImage: "url('/images/Home/About BG.png')" }}
     >
-      <div className="flex justify-between items-center w-3/4 mx-auto">
-        <div className="w-3/5">
+      <div className="md:flex justify-between items-center w-3/4 mx-auto">
+        <div className="md:w-3/5">
           <p className="text-gold uppercase text-base">
             Bringing your vision to life
           </p>
           <h1 className="ml-2 text-white text-2xl mt-4 mb-8">
-            Experience the future of your startup with immersive prototypes that
-            captivate investors.
+          Immerse yourself in the future of your startup with prototypes
+           that showcase your vision and attract investors.
           </h1>
         </div>
         <div className="w-2/5 flex justify-end">
