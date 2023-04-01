@@ -9,6 +9,7 @@ import CaseStudy from "./Components/CaseStudy";
 import Testimonials from "./Components/Testimonials";
 import ScheduleCall from "../../Common/ScheduleCall";
 import LetsTalk from "../../Common/LetsTalk";
+import HeaderVideo from "./Components/HeaderVideo";
 
 const Home = () => {
   const handleClickScroll = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Hero handleClickScroll={handleClickScroll}/>
       <Partners />
       <Build />
+      <HeaderVideo />
       <ProptypeProduct />
       <Services />
       <Contact />

@@ -3,31 +3,36 @@ import ProjectsList from "../../../Common/ProjectsList";
 import { Link } from 'react-router-dom'
 const projects = [
   {
-    type: "Virtual Reality",
+    name: "Virtual Reality",
     img: "/images/Portfolio/vr.png",
+    icon:"vr"
   },
   {
-    type: "Augmented Reality",
+    name: "Augmented Reality",
     img: "/images/Portfolio/ar.png",
+    icon:"ar"
   },
   {
     name: "Medical Simulations",
     img: "/images/Portfolio/medical.png",
+    icon:"vr"
   },
   {
     name: "Training Simulations",
     img: "/images/Portfolio/training.png",
+    icon:"vr"
   },
 
   {
-    type: "AI Metaverse",
+    name: "AI Metaverse",
     img: "/images/Portfolio/metaverse.png",
+    icon:"vr"
   },
 
   {
-    type: "Games",
     name: "3D and 2D Games",
     img: "/images/Portfolio/games.png",
+    icon:"vr"
   },
 ];
 const CaseStudy = () => {

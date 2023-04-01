@@ -16,6 +16,15 @@ module.exports = {
       '3xl': '48px',
       '4xl': '60px',
     },
+    screens:{
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      'xxl':'1390px',
+      '2xl': '1536px',
+      '3xl':'1800px',
+    },
     extend: {
       colors: {
         'gold': '#FFC815',
@@ -32,7 +41,17 @@ module.exports = {
       boxShadow: {
         'custom': '0px 25px 50px rgba(0, 0, 0, 0.1)',
       },
+      width:{
+        '100':'450px',
+        '110':'470px',
+      },
+      height:{
+        '100':'450px',
+        '110':'470px',
+      },
       maxWidth: {
+       
+        'screen-xxl':'1500px',
         'screen-2xl': '1720px',
       },
       lineHeight: {
