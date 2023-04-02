@@ -13,7 +13,7 @@ import EcoPod from "./Individual Portfolio Details/EcoPod/EcoPod";
 import InverseSurveillance from "./Individual Portfolio Details/Inverse Surveillance/InverseSurveillance";
 import ImmersiveMind from "./Individual Portfolio Details/Immersive Mind/ImmersiveMind";
 import LearntheSignLanguageinVR from "./Individual Portfolio Details/Learn the Sign Language in VR/LearntheSignLanguageinVR";
-import NoblePharmaApp from "./Individual Portfolio Details/Noble Pharm aApp/NoblePharmaApp";
+import NoblePharmaApp from "./Individual Portfolio Details/Noble Pharma App/NoblePharmaApp";
 import PoliceSimulator from "./Individual Portfolio Details/Police Simulator/PoliceSimulator";
 import SprintAR from "./Individual Portfolio Details/Sprint AR/SprintAR";
 import TeachingSolarEnergySystemsDesign from "./Individual Portfolio Details/Teaching Solar Energy Systems Design/TeachingSolarEnergySystemsDesign";
@@ -24,35 +24,35 @@ import WaajooAfricaMetaversePrototype from "./Individual Portfolio Details/Waajo
 const PortfolioDetails = () => {
   const projectDetailDirectory = [
     {
-      name: "RNTraining",
+      name: "RN Training",
       component: RNTraining,
     },
     {
-      name: "DegreeMusicvVideo",
+      name: "360 degree music video",
       component: DegreeMusicvVideo,
     },
     {
-      name: "BodywalkthroughinVR",
+      name: "Body walkthrough in VR",
       component: BodywalkthroughinVR,
     },
     {
-      name: "ChemicalEngineeringSimulation",
+      name: "Chemical Engineering Simulation",
       component: ChemicalEngineeringSimulation,
     },
     {
-      name: "ChesterCheetos",
+      name: "Chester Cheetos",
       component: ChesterCheetos,
     },
     {
-      name: "ComprehensiveTherapyForChildren",
+      name: "Providing Comprehensive Therapy For Children With Autism Spectrum Disorder",
       component: ComprehensiveTherapyForChildren,
     },
     {
-      name: "CustomerserviceintheMetaverse",
+      name: "Customer service in the Metaverse",
       component: CustomerserviceintheMetaverse,
     },
     {
-      name: "Doffleinandouttraining",
+      name: "Doffle in and out training",
       component: Doffleinandouttraining,
     },
     {
@@ -60,52 +60,54 @@ const PortfolioDetails = () => {
       component: EcoPod,
     },
     {
-      name: "InverseSurveillance",
+      name: "Inverse Surveillance",
       component: InverseSurveillance,
     },
     {
-      name: "ImmersiveMind",
+      name: "Immersive Mind",
       component: ImmersiveMind,
     },
     {
-      name: "LearntheSignLanguageinVR",
+      name: "Learn the Sign Language in VR",
       component: LearntheSignLanguageinVR,
     },
     {
-      name: "NoblePharmaApp",
+      name: "Noble Pharma App",
       component: NoblePharmaApp,
     },
     {
-      name: "PoliceSimulator",
+      name: "Police Simulator",
       component: PoliceSimulator,
     },
     {
-      name: "SprintAR",
+      name: "Sprint AR",
       component: SprintAR,
     },
     {
-      name: "TeachingSolarEnergySystemsDesign",
+      name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
       component: TeachingSolarEnergySystemsDesign,
     },
     {
-      name: "TheARTRoomUkraine",
+      name: "The ART Room - Ukraine",
       component: TheARTRoomUkraine,
     },
     {
-      name: "TheUnitedProspectorsGuild",
+      name: "The United Prospectors Guild",
       component: TheUnitedProspectorsGuild,
     },
     {
-      name: "WaajooAfricaMetaversePrototype",
+      name: "Waajoo Africa Metaverse Prototype",
       component: WaajooAfricaMetaversePrototype,
     },
   ];
   const location = useLocation();
   const paths = location.pathname.split("/");
-  const currentPath = paths[paths.length - 1].replace(/-/g, " ");
+  const currentPath = paths[paths.length - 1].replace(/_/g, " ");
   let CurrentComponent;
   projectDetailDirectory.map((component) => {
-    if (component.name === currentPath) {
+    if (
+      component.name.toLocaleLowerCase() === currentPath.toLocaleLowerCase()
+    ) {
       CurrentComponent = component.component;
     }
     return null;

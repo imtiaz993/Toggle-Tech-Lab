@@ -6,7 +6,7 @@ const ProjectsList = ({sorted}) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 mb-12 max-w-screen-xxl mx-auto">
       {sorted && sorted.map((item, index)=>
-       <Link key={index} to={`/portfolio-details/${item.name.replace(/ /g, "-")}`}>
+       <Link key={index} to={`/portfolio-details/${item.name.replace(/ /g, "_")}`}>
        <div className="mb-4">
          <div className="relative">
            <img className='w-80 h-80 xxl:w-96 xxl:h-96 2xl:w-100 2xl:h-100 3xl:w-110 3xl:h-110 object-fill' src={item.img} alt="" />
