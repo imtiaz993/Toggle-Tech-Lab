@@ -108,13 +108,13 @@ const Projects = () => {
       type: "AI",
       name: "Customer service in the Metaverse",
       img: "/images/Portfolio/AI/DCL_voctiv.png",
-      icon: "vr",
+      icon: "metaverse",
     },
     {
       type: "AI",
       name: "Waajoo Africa Metaverse Prototype",
       img: "/images/Portfolio/AI/waajoo.png",
-      icon: "vr",
+      icon: "metaverse",
     },
 
     // Augmented reality
