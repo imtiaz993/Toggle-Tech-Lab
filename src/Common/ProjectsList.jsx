@@ -13,7 +13,7 @@ const ProjectsList = ({sorted}) => {
            <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
              <img
                className="w-10 h-11 "
-               src={`/images/Portfolio/${item.icon}.svg`}
+               src={`/icons/${item.icon}.svg`}
                alt=""
              />
            </div>

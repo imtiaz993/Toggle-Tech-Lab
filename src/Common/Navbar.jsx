@@ -66,7 +66,7 @@ const Navbar = () => {
             <NavLink to="/">
               <img className="w-36" src="/icons/Logo.svg" alt="" />
             </NavLink>
-            {showOptions && (
+            {!showOptions && (
               <img
                 onClick={() => {
                   setShowOptions(!showOptions);
@@ -76,7 +76,7 @@ const Navbar = () => {
                 alt=""
               />
             )}
-            {!showOptions && (
+            {showOptions && (
               <img
                 onClick={() => {
                   setShowOptions(!showOptions);
@@ -88,7 +88,7 @@ const Navbar = () => {
             )}
           </div>
           <div
-            className={`${showOptions ? "h-0 overflow-hidden" : "h-screen"}`}
+            className={`${showOptions ? "h-screen" : "h-0 overflow-hidden"}`}
           >
             <ul className="inline-flex flex-col mt-6">
               <NavLink

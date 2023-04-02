@@ -88,19 +88,19 @@ const Projects = () => {
       type: "Games",
       name: "Chester Cheetos",
       img: "/images/Portfolio/Games/chester.png",
-      icon: "vr",
+      icon: "games",
     },
     {
       type: "Games",
       name: "Police Simulator",
       img: "/images/Portfolio/Games/policesim.png",
-      icon: "vr",
+      icon: "games",
     },
     {
       type: "Games",
       name: "Chemical Engineering Simulation",
       img: "/images/Portfolio/Games/engineering.png",
-      icon: "vr",
+      icon: "games",
     },
 
     //AI
@@ -122,31 +122,31 @@ const Projects = () => {
       type: "AR",
       name: "Sprint AR",
       img: "/images/Portfolio/AR/sprintAR.png",
-      icon: "vr",
+      icon: "ar",
     },
     {
       type: "AR",
       name: "Noble Pharma App",
       img: "/images/Portfolio/Medical/noble.png",
-      icon: "vr",
+      icon: "ar",
     },
     {
       type: "AR",
       name: "The ART Room - Ukraine",
       img: "/images/Portfolio/AR/ukraine_ar.jpeg",
-      icon: "vr",
+      icon: "ar",
     },
     {
       type: "AR",
       name: "Inverse Surveillance",
       img: "/images/Portfolio/AR/inverse.png",
-      icon: "vr",
+      icon: "ar",
     },
     {
       type: "AR",
       name: "The United Prospectors Guild",
       img: "/images/Portfolio/AR/unitedgild2.png",
-      icon: "vr",
+      icon: "ar",
     },
   ];
   const [sorted, setSorted] = useState(projects);

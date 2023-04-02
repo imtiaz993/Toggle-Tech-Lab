@@ -26,13 +26,13 @@ const projects = [
   {
     name: "AI Metaverse",
     img: "/images/Portfolio/metaverse.png",
-    icon:"vr"
+    icon:"metaverse"
   },
 
   {
     name: "3D and 2D Games",
     img: "/images/Portfolio/games.png",
-    icon:"vr"
+    icon:"games"
   },
 ];
 const CaseStudy = () => {
