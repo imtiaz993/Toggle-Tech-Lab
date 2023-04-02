@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./Components/Hero";
 import SidebarDetailWrapper from "./Components/SidebarDetailWrapper";
-const MedicalSimulations = () => {
+const PorpolioDetail= () => {
   return (
     <>
       <Hero />
@@ -10,4 +10,4 @@ const MedicalSimulations = () => {
   );
 };
 
-export default MedicalSimulations;
+export default PorpolioDetail;

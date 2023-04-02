@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showOptions, setShowOptions] = useState(false);
+
+  useEffect(() => {
+    const body = document.getElementById("body");
+
+    if (showOptions) {
+      body.style.overflow = "hidden";
+    } else {
+      body.style.overflow = "auto";
+    }
+  }, [showOptions]);
+
   return (
     <>
       <div className="w-full bg-navbar-gredient absolute z-10  mx-auto">
