@@ -161,18 +161,20 @@ const Projects = () => {
     }
   };
   return (
-    <div className="w-11/12  md:w-3/4 mx-auto">
-      <div>
+    <>
+      <div >
+        <div className="w-11/12 md:w-3/4 mx-auto">
         <h1 className="text-white text-2xl mt-12">
           Prototypes And Products <br /> That Get It
         </h1>
         <p className="text-gold text-base my-4 uppercase">Sort Projects</p>
-        <div className="flex">
+        </div>
+        <div className="flex overflow-auto pb-4 w-11/12 ml-auto md:w-3/4  md:mx-auto">
           <div
             onClick={() => {
               handleSort("All Projects");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "All Projects"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -184,7 +186,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("Immersive Enviornments");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Immersive Enviornments"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -196,7 +198,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("Brand Activations");
             }}
-            className={`rounded-3xl cursor-pointer text-base border ${
+            className={`rounded-3xl cursor-pointer text-base border  whitespace-nowrap ${
               selected === "Brand Activations"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -208,7 +210,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("Training");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Training"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -220,7 +222,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("Games");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Games"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -233,7 +235,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("Medical Simulations");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Medical Simulations"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -246,7 +248,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("AI");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "AI"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -259,7 +261,7 @@ const Projects = () => {
             onClick={() => {
               handleSort("AR");
             }}
-            className={`rounded-3xl cursor-pointer text-base  border ${
+            className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "AR"
                 ? "border-white text-white"
                 : "border-grey text-grey"
@@ -269,8 +271,10 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="w-11/12  md:w-3/4 mx-auto">
       <ProjectsList sorted={sorted} />
     </div>
+    </>
   );
 };
 

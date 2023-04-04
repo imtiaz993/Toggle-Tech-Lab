@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const Hero = ({handleClickScroll}) => {
   return (
     <div className="relative">
-      <img className="w-full" src="/images/Home/Hero.png" alt="" />
+      <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
+      <img className="w-full sm:hidden" src="/images/Home/Hero Mobile.png" alt="" />
       <div className="absolute top-1/4 w-full 2xl:top-1/3">
         <div className="w-11/12  md:w-3/4 mx-auto">
           <div className="w-3/5">
