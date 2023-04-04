@@ -37,9 +37,9 @@ const projects = [
 ];
 const CaseStudy = () => {
   return (
-    <div className="w-3/4 mx-auto my-20">
+    <div className="w-11/12  md:w-3/4 mx-auto my-20">
       <h1 className="text-gold text-base uppercase mb-4">Case Study</h1>
-      <div className="flex justify-between items-center  mb-8">
+      <div className="md:flex justify-between items-center  mb-8">
         <h1 className="text-white text-2xl">
           Our Works
           <br /> Speaks For Itself

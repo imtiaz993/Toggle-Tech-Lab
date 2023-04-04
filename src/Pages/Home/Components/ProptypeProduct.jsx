@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 const ProptypeProduct = () => {
   return (
     <div className="bg-light-grey">
-      <div className="w-3/4 mx-auto grid lg:grid-cols-2 gap-12 items-center py-20">
+      <div className="w-11/12  md:w-3/4 mx-auto grid lg:grid-cols-2 gap-12 items-center py-20">
         <div className="">
           <img src="/images/Services/2nd Section.png" alt="" />
         </div>
-        <div className="w-11/12">
+        <div className="md:w-11/12">
           <h1 className="text-gold text-base uppercase mb-2">About Us</h1>
           <h1 className="text-white text-2xl mb-8">
             Prototypes And Products That Get It
@@ -34,24 +34,23 @@ Don't let a lack of funding hold your startup back. Contact us today to learn ho
             experience the difference for yourself!
           </p>
 
-          <div className="grid grid-cols-4 gap-12 items-center my-20">
-        <div>
-          <img src="/images/About/Upwork.png" alt="" />
+          <div className="grid grid-cols-2 gap-12 items-center my-12">
+        <div className="md:mb-2">
+          <img className="w-3/4" src="/images/About/Upwork.png" alt="" />
         </div>
-        <div>
-          <img src="/images/About/XR Today.png" alt="" />
+        <div className="md:mb-2">
+          <img className="w-3/4" src="/images/About/XR Today.png" alt="" />
         </div>
-        <div>
-          <img src="/images/About/Rising Star.png" alt="" />
+        <div className="md:mb-2">
+          <img className="w-3/4" src="/images/About/Rising Star.png" alt="" />
         </div>
-        <div>
-          {" "}
-          <img src="/images/About/Venture Labs.png" alt="" />
+        <div className="md:mb-2">
+          <img className="w-3/4" src="/images/About/Venture Labs.png" alt="" />
         </div>
       </div>
 
           <Link to="/about">
-          <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
+          <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 ">
             Read More
           </button>
           </Link>

@@ -47,7 +47,7 @@ import React from "react";
 
 const Detail = () => {
   return (
-    <div className="w-3/4 mx-auto mt-20">
+    <div className="w-11/12  md:w-3/4 mx-auto mt-20">
       <h1 className="text-white text-2xl mb-8">What We Do</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div

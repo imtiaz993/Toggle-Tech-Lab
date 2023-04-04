@@ -2,13 +2,13 @@ import React from "react";
 
 const Detail = () => {
   return (
-    <div className="w-3/4 mx-auto">
+    <div className="w-11/12  md:w-3/4 mx-auto">
       {" "}
       <div className="grid lg:grid-cols-2 gap-12 items-center mt-20">
         <div className="">
           <img src="/images/Services/2nd Section.png" alt="" />
         </div>
-        <div className="w-11/12">
+        <div className="md:w-11/12">
           <h1 className="text-white text-2xl mb-8">
             Prototypes And Products That Get It
           </h1>

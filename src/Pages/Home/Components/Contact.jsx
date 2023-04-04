@@ -17,7 +17,7 @@ const Contact = () => {
            that showcase your vision and attract investors.
           </h1>
         </div>
-        <div className="w-2/5 flex justify-end">
+        <div className="md:w-2/5 md:flex justify-end">
         <Link to="/contact">
           <button className="text-black font-medium text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
             Contact Us

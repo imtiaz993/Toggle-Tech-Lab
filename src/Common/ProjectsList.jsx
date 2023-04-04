@@ -9,7 +9,7 @@ const ProjectsList = ({sorted}) => {
        <Link key={index} to={`/portfolio-details/${item.name.replace(/ /g, "_")}`}>
        <div className="mb-4">
          <div className="relative">
-           <img className='w-80 h-80 xxl:w-96 xxl:h-96 2xl:w-100 2xl:h-100 3xl:w-110 3xl:h-110 object-fill' src={item.img} alt="" />
+           <img className='w-full h-80 lg:w-80 lg:h-80 xxl:w-96 xxl:h-96 2xl:w-100 2xl:h-100 3xl:w-110 3xl:h-110 object-fill' src={item.img} alt="" />
            <div className="absolute bottom-3 right-3 p-3 bg-white rounded-lg">
              <img
                className="w-10 h-11 "

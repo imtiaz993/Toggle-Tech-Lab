@@ -4,7 +4,7 @@ import Detail from "./Detail";
 
 const DetailPrevNextWrapper = () => {
   return (
-    <div className="w-3/4 mx-auto">
+    <div className="w-11/12  md:w-3/4 mx-auto">
       <Detail />
       {/* <PrevNext /> */}
     </div>

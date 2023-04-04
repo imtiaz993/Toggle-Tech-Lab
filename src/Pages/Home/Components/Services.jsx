@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
-    <div className="w-3/4 mx-auto my-20">
+    <div className="w-11/12  md:w-3/4 mx-auto my-20">
       <h1 className="text-gold text-base uppercase mb-4">Services</h1>
-      <div className="flex justify-between items-center  mb-8">
+      <div className="md:flex justify-between items-center  mb-8">
         <h1 className="text-white text-2xl">What We Do</h1>
         <Link to="/service">
         <button className="text-gold text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">

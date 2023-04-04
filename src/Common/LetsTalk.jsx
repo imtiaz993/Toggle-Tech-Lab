@@ -2,7 +2,7 @@ import React from "react";
 
 const LetsTalk = () => {
   return (
-    <div className="w-3/4 mx-auto block lg:flex justify-between py-28">
+    <div className="w-11/12  md:w-3/4 mx-auto block lg:flex justify-between py-28">
       <div className="lg:w-2/5">
         <p className="text-gold text-base uppercase">Contact Us</p>
         <h1 className="text-white text-3xl mt-2">Let’s Talk</h1>

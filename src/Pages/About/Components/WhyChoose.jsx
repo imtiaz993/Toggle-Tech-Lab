@@ -3,9 +3,9 @@ import React from "react";
 
 const WhyChoose = () => {
   return (
-    <div className="w-3/4 mx-auto">
+    <div className="w-11/12  md:w-3/4 mx-auto">
       <h1 className="text-white text-2xl mb-8">What We Do</h1>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
           className="bg-top bg-no-repeat bg-cover -m-6 h-96 "
           style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}

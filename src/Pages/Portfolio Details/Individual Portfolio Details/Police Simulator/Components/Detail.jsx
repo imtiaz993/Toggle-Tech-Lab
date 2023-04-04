@@ -9,7 +9,7 @@ const Detail = () => {
           Disorder by Using a Virtual Reality Application
         </h1>
         <img
-          className="w-full h-96  2xl:h-100  3xl:h-110 object-fill"
+          className="w-full h-48 md:h-72 lg:h-96  2xl:h-100  3xl:h-110 object-fill"
           src="/images/Portfolio Details/ASU/asulogo.jpg"
           alt=""
         />
@@ -52,7 +52,7 @@ const Detail = () => {
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
         <img
-          className="w-full h-96  2xl:h-100  3xl:h-110 object-fill"
+          className="w-full h-48 md:h-72 lg:h-96  2xl:h-100  3xl:h-110 object-fill"
           src="/images/Portfolio Details/ASU/ASU2.png"
           alt=""
         />
@@ -62,7 +62,7 @@ const Detail = () => {
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">Results </h1>
         <img
-          className="w-full h-96  2xl:h-100  3xl:h-110 object-fill"
+          className="w-full h-48 md:h-72 lg:h-96  2xl:h-100  3xl:h-110 object-fill"
           src="/images/Portfolio Details/ASU/ASU3.png"
           alt=""
         />
@@ -77,7 +77,7 @@ const Detail = () => {
       <div className="mb-16">
         <h1 className="text-white text-2xl mb-8">Future direction</h1>
         <img
-          className="w-full h-96  2xl:h-100  3xl:h-110 object-fill"
+          className="w-full h-48 md:h-72 lg:h-96  2xl:h-100  3xl:h-110 object-fill"
           src="/images/Portfolio Details/ASU/ASU1.png"
           alt=""
         />

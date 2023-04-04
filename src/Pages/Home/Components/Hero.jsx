@@ -6,7 +6,7 @@ const Hero = ({handleClickScroll}) => {
     <div className="relative">
       <img className="w-full" src="/images/Home/Hero.png" alt="" />
       <div className="absolute top-1/4 w-full 2xl:top-1/3">
-        <div className="w-3/4 mx-auto">
+        <div className="w-11/12  md:w-3/4 mx-auto">
           <div className="w-3/5">
         <p className="text-gold uppercase text-base  mb-2">
           Immersive Prototyping for Startups

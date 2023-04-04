@@ -2,7 +2,7 @@ import React from "react";
 
 const Partners = () => {
   return (
-    <div className="w-3/4 mx-auto my-28">
+    <div className="w-11/12  md:w-3/4 mx-auto my-28">
       <p className="text-gold uppercase mb-5 text-base text-center">
         Our Partners
       </p>
