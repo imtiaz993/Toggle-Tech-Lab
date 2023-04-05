@@ -49,12 +49,12 @@ const Detail = () => {
   return (
     <div className="w-11/12  md:w-3/4 mx-auto mt-20">
       <h1 className="text-white text-xl md:text-2xl mb-8">What We Do</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 md:mb-16">
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-96 "
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl "
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-1.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Strategic Consulting, and Development for XR Technologies
@@ -66,10 +66,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-96"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl"
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-2.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Application Development for VR HMD Platforms
@@ -80,10 +80,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-96"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl"
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Camera AR Lens and Photo Filters
@@ -102,12 +102,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-80 "
-          style={{
-            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
-          }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl "
+          
         >
-          <div className="rounded-2xl px-16 pt-14 ">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-4.svg" alt="" />
             <h1 className="text-white text-xl my-4">Mobile AR</h1>
             <p className="text-grey text-base md:text-lg">iOS ARKit, Android ARCore and AR Foundation</p>
@@ -124,12 +122,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-60 "
-          style={{
-            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
-          }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl "
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-5.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               360º Content Creation Videos
@@ -139,12 +135,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-60"
-          style={{
-            backgroundImage: "url('/images/About/Why Choose BG 2.png')",
-          }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl"
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-6.svg" alt="" />
             <h1 className="text-white text-xl my-4">Haptics</h1>
             <p className="text-grey text-base md:text-lg">We work with Haptics and sensors</p>
@@ -153,10 +147,10 @@ const Detail = () => {
         </div>
 
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-96"
-          style={{ backgroundImage: "url('/images/About/Why Choose BG.png')" }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl"
+          
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               2D and 3D Games
@@ -175,12 +169,10 @@ const Detail = () => {
           </div>
         </div>
         <div
-          className="bg-top bg-no-repeat bg-cover -m-6 h-85"
-          style={{
-            backgroundImage: "url('/images/About/Why Choose BG 3.png')",
-          }}
+          className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl"
+         
         >
-          <div className="rounded-2xl pt-14 px-16">
+          <div className="py-10 px-8">
             <img className="w-14 h-14" src="/icons/Why Choose-7.svg" alt="" />
             <h1 className="text-white text-xl my-4">3D Design and Modelling</h1>
             <p className="text-grey text-base md:text-lg">Blender, 3ds Max and Cinema4D</p>

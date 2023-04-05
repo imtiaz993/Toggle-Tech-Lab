@@ -33,6 +33,7 @@ module.exports = {
         'lighter-grey':'#090909',
         'light-grey':'#3C3C3C',
         'dark-grey':'#404040',
+        'card-bg':'#0b090996'
       },
       backgroundImage: {
         'gradient': 'linear-gradient(136.04deg, #131313 0.89%, rgba(8, 8, 8, 0) 100.93%)',

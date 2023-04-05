@@ -27,7 +27,7 @@ const Hero = ({handleClickScroll}) => {
           </button>
           
           <Link className="block mt-4 md:mt-0 md:inline" to="/portfolio">
-          <button className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-5">
+          <button className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4">
             Watch a Demo
           </button>
           </Link>
