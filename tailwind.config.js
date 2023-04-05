@@ -37,7 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(136.04deg, #131313 0.89%, rgba(8, 8, 8, 0) 100.93%)',
-        'navbar-gredient': 'linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%)',
+        'navbar-gredient': 'linear-gradient(90deg, #000000 0%, #111111 100%)',
       },
       boxShadow: {
         'custom': '0px 25px 50px rgba(0, 0, 0, 0.1)',

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full bg-navbar-gredient absolute z-10  mx-auto">
+      <div className="w-full bg-navbar-gredient fixed z-10  mx-auto">
         <div className="hidden md:flex w-11/12 mx-auto justify-between items-center pt-6 pb-4 ">
           <NavLink to="/">
             <img src="/icons/Logo.svg" alt="" />
