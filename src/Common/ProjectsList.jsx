@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const ProjectsList = ({sorted}) => {
  
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 mb-12 max-w-screen-xxl mx-auto">
+    <div className="w-11/12 md:w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 mb-12 max-w-screen-xxl mx-auto">
       {sorted && sorted.map((item, index)=>
        <Link key={index} to={item.name==="portfolio"?`/portfolio?type=${item.type.replace(/ /g, "_")}`:`/portfolio-details/${item.name.replace(/ /g, "_")}`}>
        <div className="mb-4">
