@@ -1,7 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProjectsList from "../../../Common/ProjectsList";
+import { useLocation } from "react-router-dom";
 
 const Projects = () => {
+  const location = useLocation();
+  const query = new URLSearchParams(location.search);
+  let typeParam = query.get("type")
+  if(typeParam){
+    typeParam= typeParam.replace(/_/g," ");
+  }
+  if (typeParam === "Training Simulations") {
+    typeParam = "Training";
+  }
+  if (typeParam === "Augmented Reality") {
+    typeParam = "AR";
+  }
+  if (typeParam === "AI, Metaverse") {
+    typeParam = "AI";
+  }
+  if (typeParam === "3D and 2D Games") {
+    typeParam = "Games";
+  }
+  if (typeParam === "3D and 2D Games") {
+    typeParam = "Games";
+  }
+
   const projects = [
     //medical
     {
@@ -160,14 +183,19 @@ const Projects = () => {
       setSelected(value);
     }
   };
+  useEffect(() => {
+    if (typeParam) {
+      handleSort(typeParam);
+    }
+  }, [typeParam]);
   return (
     <>
-      <div >
+      <div>
         <div className="w-11/12 md:w-3/4 mx-auto">
-        <h1 className="text-white text-2xl mt-12">
-          Prototypes And Products <br /> That Get It
-        </h1>
-        <p className="text-gold text-base my-4 uppercase">Sort Projects</p>
+          <h1 className="text-white text-2xl mt-12">
+            Prototypes And Products <br /> That Get It
+          </h1>
+          <p className="text-gold text-base my-4 uppercase">Sort Projects</p>
         </div>
         <div className="flex overflow-auto pb-4 w-11/12 ml-auto md:w-3/4  md:mx-auto">
           <div
@@ -267,13 +295,13 @@ const Projects = () => {
                 : "border-grey text-grey"
             } py-1 px-3 mr-2`}
           >
-            Augmented reality
+            Augmented Reality
           </div>
         </div>
       </div>
       <div className="w-11/12  md:w-3/4 mx-auto">
-      <ProjectsList sorted={sorted} />
-    </div>
+        <ProjectsList sorted={sorted} />
+      </div>
     </>
   );
 };
