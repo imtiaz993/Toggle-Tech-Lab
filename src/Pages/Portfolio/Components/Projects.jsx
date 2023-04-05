@@ -24,6 +24,9 @@ const Projects = () => {
   if (typeParam === "3D and 2D Games") {
     typeParam = "Games";
   }
+  if (typeParam === "Virtual Reality") {
+    typeParam = "All Projects";
+  }
   const projects = useMemo(() => [
     //medical
     {
