@@ -12,14 +12,14 @@ const Contact = () => {
           <p className="text-gold uppercase text-base">
             Bringing your vision to life
           </p>
-          <h1 className="ml-2 text-white text-2xl mt-4 mb-8">
+          <h1 className="ml-2 text-white text-xl md:text-2xl mt-4 mb-8">
           Immerse yourself in the future of your startup with prototypes
            that showcase your vision and attract investors.
           </h1>
         </div>
         <div className="md:w-2/5 md:flex justify-end">
         <Link to="/contact">
-          <button className="text-black font-medium text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
+          <button className="text-black font-medium text-base md:text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
             Contact Us
           </button>
           </Link>

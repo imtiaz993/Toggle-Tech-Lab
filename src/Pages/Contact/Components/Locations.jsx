@@ -7,7 +7,7 @@ const Locations = () => {
         <h1 className="text-white text-xl mb-3">Canada</h1>
         <div className="flex items-start">
           <img className="mr-2" src="/icons/location.svg" alt="" />
-          <p className="text-grey text-lg">
+          <p className="text-grey text-base md:text-lg">
             810 Quayside Dr #205, New Westminster, BC V3M 6B9
           </p>
         </div>
@@ -16,7 +16,7 @@ const Locations = () => {
         <h1 className="text-white text-xl mb-3">India</h1>
         <div className="flex items-start">
           <img className="mr-2" src="/icons/location.svg" alt="" />
-          <p className="text-grey text-lg">
+          <p className="text-grey text-base md:text-lg">
             52 Johal Market, Zira, Punjab 142047
           </p>
         </div>
@@ -25,7 +25,7 @@ const Locations = () => {
         <h1 className="text-white text-xl mb-3">Qatar</h1>
         <div className="flex items-start">
           <img className="mr-2" src="/icons/location.svg" alt="" />
-          <p className="text-grey text-lg">
+          <p className="text-grey text-base md:text-lg">
             Al Mana Business Centre 02, Doha, Qatar
           </p>
         </div>

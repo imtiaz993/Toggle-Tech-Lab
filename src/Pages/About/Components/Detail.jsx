@@ -9,14 +9,14 @@ const Detail = () => {
           <img src="/images/Services/2nd Section.png" alt="" />
         </div>
         <div className="md:w-11/12">
-          <h1 className="text-white text-2xl mb-8">
+          <h1 className="text-white text-xl md:text-2xl mb-8">
             Prototypes And Products That Get It
           </h1>
-          <p className="text-grey text-lg">
+          <p className="text-grey text-base md:text-lg">
           Welcome to Toggle Tech Lab, the premier destination for turning your concepts into tangible 
           XR products or services. Since 2018 we have helped over 115 startups and businesses.
           </p> 
-          <p className="text-grey text-lg">
+          <p className="text-grey text-base md:text-lg">
 
           At Toggle Tech Lab, we are dedicated to helping both 
           startups and established businesses achieve their goals by creating cutting-edge

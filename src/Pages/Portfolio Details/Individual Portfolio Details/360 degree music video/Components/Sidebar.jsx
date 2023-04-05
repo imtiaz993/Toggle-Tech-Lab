@@ -8,7 +8,7 @@ const Sidebar = () => {
           Application Development
         </h1>
         <div>
-          <ul className="text-grey text-lg list-disc ml-4">
+          <ul className="text-grey text-base md:text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
                Unity Game Engine
@@ -28,7 +28,7 @@ const Sidebar = () => {
           VR (Virtual Reality)
         </h1>
         <div>
-          <ul className="text-grey text-lg marker:text-red-800 list-disc ml-4">
+          <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
                Meta Quest 1 & 2
@@ -42,7 +42,7 @@ const Sidebar = () => {
           From The Experts
         </h1>
         <div>
-          <ul className="text-grey text-lg marker:text-red-800 list-disc ml-4">
+          <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
                 Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
@@ -61,7 +61,7 @@ const Sidebar = () => {
           Questions?
         </h1>
         <div>
-          <ul className="text-grey text-lg marker:text-red-800 list-disc ml-4">
+          <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
                 Feel free to reach out.

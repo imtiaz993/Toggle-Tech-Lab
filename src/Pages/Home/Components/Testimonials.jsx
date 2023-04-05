@@ -10,7 +10,7 @@ const Testimonials = () => {
       <div className="w-11/12  md:w-3/4 mx-auto mt-20">
         <h1 className="text-gold text-base uppercase mb-4">In The News</h1>
         <div className="md:flex justify-between items-center  mb-8">
-          <h1 className="text-white text-2xl">
+          <h1 className="text-white text-xl md:text-2xl">
             Client’s
             <br className="hidden md:block" /> Testimonials
           </h1>
@@ -43,7 +43,7 @@ const Testimonials = () => {
             <div>
               <div className="mr-1 md:mr-4 border border-dark-grey rounded-xl py-6 px-8  mb-3">
                 <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
-                <p className="text-grey text-lg mt-8">
+                <p className="text-grey text-base md:text-lg mt-8">
                   Courteous, professional, great communication skills that
                   really helped us as we are non-technical. We have gotten
                   funding for our pre-seed project from the National Science
@@ -59,7 +59,7 @@ const Testimonials = () => {
             <div>
               <div className="mr-1 md:mr-4 border border-dark-grey rounded-xl py-6 px-8  mb-3">
                 <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
-                <p className="text-grey text-lg mt-8">
+                <p className="text-grey text-base md:text-lg mt-8">
                   I'm extremely happy with the work the team did. They acted
                   independently and solved complex problems that had no ready
                   made solutions before our project. We are now ready with a
@@ -75,7 +75,7 @@ const Testimonials = () => {
             <div>
               <div className="mr-1 md:mr-4 border border-dark-grey rounded-xl py-6 px-8  mb-3">
                 <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
-                <p className="text-grey text-lg mt-8">
+                <p className="text-grey text-base md:text-lg mt-8">
                   Very professional and asked all the right questions and was
                   quick to grasp our goal and was able to improve the overall
                   project. She moved our VR project towards completion which
@@ -94,7 +94,7 @@ const Testimonials = () => {
             <div className="">
               <div className="mr-1 md:mr-4 border border-dark-grey rounded-xl py-6 px-8  mb-3">
                 <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
-                <p className="text-grey text-lg mt-8">
+                <p className="text-grey text-base md:text-lg mt-8">
                   We had a fantastic experience working with Toggle Tech Lab.
                   They are very professional and knowledgeable. Clearly
                   understood our requirements and executed them in time. We will

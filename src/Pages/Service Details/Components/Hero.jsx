@@ -6,7 +6,7 @@ const Hero = () => {
       <img className="w-full hidden sm:block" src="/images/Service Details/Hero.png" alt="" />
       <img className="w-full sm:hidden" src="/images/Service Details/Hero Mobile.png" alt="" />
       <div className="absolute top-1/3 mt-8 w-full">
-        <h1 className="w-11/12  md:w-3/4 mx-auto text-4xl text-white">Virtual Reality</h1>
+        <h1 className="w-11/12  md:w-3/4 mx-auto text-2xl md:text-4xl text-white">Virtual Reality</h1>
       </div>
     </div>
   );

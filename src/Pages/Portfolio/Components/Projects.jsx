@@ -196,7 +196,7 @@ const Projects = () => {
     <>
       <div>
         <div className="w-11/12 md:w-3/4 mx-auto">
-          <h1 className="text-white text-2xl mt-12">
+          <h1 className="text-white text-xl md:text-2xl mt-12">
             Prototypes And Products <br /> That Get It
           </h1>
           <p className="text-gold text-base my-4 uppercase">Sort Projects</p>

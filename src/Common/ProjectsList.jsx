@@ -18,8 +18,8 @@ const ProjectsList = ({sorted}) => {
              />
            </div>
          </div>
-        {item.name!=="portfolio" && <p className="text-white text-xl mt-4">{item.name}</p>}
-         <p className="text-white text-xl">{item.type}</p>
+        {item.name!=="portfolio" && <p className="text-white text-lg md:text-xl mt-4">{item.name}</p>}
+         <p className="text-white text-lg md:text-xl">{item.type}</p>
        </div>
        </Link>
       )}

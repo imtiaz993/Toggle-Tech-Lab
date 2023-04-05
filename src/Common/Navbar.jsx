@@ -21,7 +21,7 @@ const Navbar = () => {
           <NavLink to="/">
             <img src="/icons/Logo.svg" alt="" />
           </NavLink>
-          <div className="flex items-center text-lg">
+          <div className="flex items-center text-base md:text-lg">
             <NavLink
               to="/"
               className={({ isActive }) =>
