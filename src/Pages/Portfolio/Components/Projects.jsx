@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback, useMemo } from "react";
 import ProjectsList from "../../../Common/ProjectsList";
 import { useLocation } from "react-router-dom";
 
 const Projects = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search);
-  let typeParam = query.get("type")
-  if(typeParam){
-    typeParam= typeParam.replace(/_/g," ");
+  let typeParam = query.get("type");
+  if (typeParam) {
+    typeParam = typeParam.replace(/_/g, " ");
   }
   if (typeParam === "Training Simulations") {
     typeParam = "Training";
@@ -24,8 +24,7 @@ const Projects = () => {
   if (typeParam === "3D and 2D Games") {
     typeParam = "Games";
   }
-
-  const projects = [
+  const projects = useMemo(() => [
     //medical
     {
       type: "Medical Simulations",
@@ -171,10 +170,11 @@ const Projects = () => {
       img: "/images/Portfolio/AR/unitedgild2.png",
       icon: "ar",
     },
-  ];
+  ], []);
+
   const [sorted, setSorted] = useState(projects);
   const [selected, setSelected] = useState("All Projects");
-  const handleSort = (value) => {
+  const handleSort = useCallback((value) => {
     if (value === "All Projects") {
       setSorted(projects);
       setSelected("All Projects");
@@ -182,12 +182,13 @@ const Projects = () => {
       setSorted(projects.filter((item) => item.type === value));
       setSelected(value);
     }
-  };
+  }, [projects]);
+
   useEffect(() => {
     if (typeParam) {
       handleSort(typeParam);
     }
-  }, [typeParam]);
+  }, [handleSort, typeParam]);
   return (
     <>
       <div>
