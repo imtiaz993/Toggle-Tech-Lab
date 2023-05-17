@@ -5,96 +5,77 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+          360 Degree Music Video
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
-          alt=""
-        />
-        </div>
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110"></div>
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+          Virtual reality (VR) has revolutionized the way we consume and
+          experience media. 360-degree videos, in particular, offer an immersive
+          experience where viewers can look around in any direction, as if they
+          are actually present in the environment captured by the video. This
+          technology has been used in various fields, including entertainment,
+          education, and marketing, and has proven to be an effective tool in
+          engaging and educating audiences..
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
+          One of the most significant advantages of using 360-degree videos in
+          VR is the level of immersion it provides. Unlike traditional videos,
+          where the viewer's perspective is limited to a fixed point of view,
+          360-degree videos allow viewers to experience an environment as if
+          they are physically present. This creates a sense of presence that
+          makes the experience more realistic and engaging. This is especially
+          beneficial in industries such as real estate, where potential buyers
+          can take a virtual tour of a property before physically visiting it.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+          Another advantage of using 360-degree videos in VR is the ability to
+          capture and communicate complex information. For example, in the
+          medical industry, surgeons can use 360-degree videos to train and
+          educate medical students about complicated surgical procedures.
+          Similarly, architects and engineers can use this technology to
+          showcase their designs to clients, allowing them to experience the
+          design in its entirety.
+        </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+          360-degree videos in VR also provide opportunities for interactive
+          storytelling. By incorporating interactive elements such as clickable
+          hotspots, users can control their experience and engage with the
+          content on a deeper level. This makes the experience more personalized
+          and engaging, and can be used effectively in advertising and
+          marketing.
+        </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+          Despite its numerous advantages, there are some challenges to using
+          360-degree videos in VR. For example, creating high-quality videos
+          requires specialized equipment and skills. Additionally, since the
+          technology is still relatively new, there are limitations in terms of
+          the number of platforms and devices that support it. However, as the
+          technology evolves and becomes more accessible, these challenges are
+          likely to be overcome.
+        </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+          In conclusion, 360-degree videos in VR offer a unique and immersive
+          experience that has the potential to revolutionize the way we consume
+          and experience media. Its applications in various industries have
+          proven to be effective, and as the technology becomes more accessible,
+          we can expect to see even more innovative uses in the future.
         </p>
       </div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
-          alt=""
-        />
+        <div className="flex sm:flex-row flex-col gap-5 items-center">
+          <iframe
+            width="70%"
+            height="500px"
+            src="https://www.youtube.com/embed/2GnSmbsuGG4?start=6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-      </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
-      </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
       </div>
     </div>
   );

@@ -5,99 +5,93 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+         Art Hostel, Kyiv, Ukraine
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
-          alt=""
-        />
-        </div>
+        
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+        Step into the world of a Ukrainian art studio with a new AR portal. The art
+         studio has been transformed into a 3D experience that can be accessed 
+         through a web AR walk-through. With just a quick scan of a QR code on 
+         the artist’s webpage, you can immerse
+         yourself in our art studio from anywhere in the world.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
+        Using cutting-edge technology, we have scanned the studio in 3D and
+         created a blender file that has been optimized for AR. This means 
+         that you can experience the art studio as if you were physically
+          standing within it. Explore the space, move around and interact 
+          with the artworks in a whole new way. See the pieces from different
+           angles, view them up close or step back and appreciate the
+            space they occupy.
+        
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+        This web AR experience offers a unique way to explore the artist’s 
+        studio and  art. It’s an exciting opportunity to connect with their 
+        work in a way that was previously impossible. The portal offers an immersive
+         and interactive experience that will transport you there.
         </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+        We’re thrilled to offer this experience 
+        to audiences, and we hope that it will inspire a new appreciation for 
+        the beauty and intricacy of our work. Whether you’re an art enthusiast or
+         just curious
+         about new technology, this AR portal is an experience not to be missed.
+         </p>
       </div>
-      <div className="mb-16">
+
+      <div className="mb-8">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
+          Try it out
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+      <div 
+        className="flex sm:flex-row flex-col gap-2 items-center mb-16"
+      >
         <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
+          className="sm:w-[57%] w-9/12 object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/ukraine_ar.jpeg"
           alt=""
         />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
+        <img
+          className="sm:w-[43%] w-9/12 object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/QRCode.jpeg"
+          alt=""
+        />
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
+
+      <div className="mb-8">
+      <h1 className="text-white text-xl md:text-2xl mb-8">
+        Web AR experience built using Unity Engine
+      </h1>
+      </div>
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+      <img
+          className="w-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1-min.PNG"
           alt=""
         />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
+      </div>
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+        <img
+          className="w-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2-min.PNG"
+          alt=""
+        />
+      </div>
+
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+      <img
+          className="w-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3-min.PNG"
+          alt=""
+        />
       </div>
     </div>
+      
+    
   );
 };
 
 export default Detail;
+

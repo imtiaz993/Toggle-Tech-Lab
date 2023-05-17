@@ -11,11 +11,11 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Unity Game Engine
+               Unreal Game Engine
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey"> Rendering</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
@@ -43,14 +43,15 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
+          <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
+                <a 
+                  href="https://www.news-medical.net/health/Applications-of-Virtual-Reality-in-Medicine.aspx"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Applications of Virtual Reality in Medicine
+                ​</a> 
               </div>
             </li>
           </ul>

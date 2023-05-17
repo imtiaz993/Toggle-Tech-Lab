@@ -5,99 +5,129 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+        Teaching Solar Energy Systems Design
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div  className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/glasgowuni-removebg-preview.png"
           alt=""
         />
         </div>
+     
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+        The training VR simulation is designed to provide a hands-on experience for 
+        users on how to install solar panels on the roof of a house. The simulation 
+        begins by allowing the user to select a location on a map, after which they are 
+        teleported to the front of a house where the solar panel installation will 
+        take place. Once inside the power room of the house, 
+        the user is given guidance on how to install the solar energy components (https://ieeexplore.ieee.org/document/9766460)
+       
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
+        Using hand interactions, the user is able to connect electronic components
+         such as the inverter, battery, and meter. The VR simulation provides
+          a realistic experience that allows the user to see how the installation
+           process works in a safe and controlled environment. This allows the user
+         to learn at their own pace and with no risk of physical harm.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+        As the user progresses through the simulation, they are able to see the impact
+         of their installation choices on the amount of electricity generated. 
+         The angle and number of solar panels installed affect the amount of
+          electricity produced, which is reflected in the readings displayed on 
+          the meter. This feedback allows the user to experiment with different
+         installation options and to see the impact of those choices in real time.
+        </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+        Overall, the training VR simulation provides an effective and engaging way 
+        for users to learn about solar panel installation. By providing a hands-on
+         experience, users are able to learn in a way that is both informative and 
+         entertaining. The simulation's ability to provide real-time feedback on 
+         installation choices helps users to 
+        understand the impact of their decisions and to make more informed choices.
         </p>
       </div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
+          Built for Meta Quest 1 & 2 using Unity Engine https://www.youtube.com/watch?v=BiusdZYvxmU
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
+      
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2">
+        <div>
+          <img
+            className="object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar0.PNG"
+            alt=""
+          />
+        </div> 
+
+        <div>
+          <img
+            className="w-25rem object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG"
+            alt=""
+          />
+        </div> 
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
+
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar7.PNG"
+            alt=""
+          />
+        </div> 
+
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar8.PNG"
+            alt=""
+          />
+        </div> 
+      </div>
+
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar3.PNG"
+            alt=""
+          />
+        </div> 
+
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar4.PNG"
+            alt=""
+          />
+        </div> 
+      </div>
+
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2">
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar5.PNG"
+            alt=""
+          />
+        </div> 
+
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar6.PNG"
+            alt=""
+          />
+        </div> 
       </div>
     </div>
+
   );
 };
-
 export default Detail;
+

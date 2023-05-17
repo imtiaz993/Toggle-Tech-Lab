@@ -15,23 +15,23 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">Web AR</div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">3DS Max</div>
+              <div className="text-grey">Sketch</div>
             </li>
           </ul>
         </div>
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
+          AR (Augmented Reality)
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Meta Quest 1 & 2
+               Browser based AR
               </div>
             </li>
           </ul>
@@ -43,14 +43,15 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
+          <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
+                <a 
+                  href="https://sketchfab.com/3d-models/art-hostel-in-kyiv-ukraine-d4611805a2874e23afb0ee438fdbec45" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Art-hostel in Kyiv, Ukraine           
+                </a>
               </div>
             </li>
           </ul>

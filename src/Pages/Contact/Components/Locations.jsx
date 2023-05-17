@@ -34,18 +34,37 @@ const Locations = () => {
         <h1 className="text-white text-xl mb-3">Social Media</h1>
         <div className="flex">
           <div className="rounded-full border border-dark-grey mr-3 w-12 h-12 flex items-center justify-center">
-            <img className="w-1/2" src="/icons/twitter.svg" alt="" />
+            <a href="https://twitter.com/toggletechlab" rel="noreferrer" target="_blank" >
+              <img className="w-2/2" src="/icons/twitter.svg" alt="" />
+            </a> 
           </div>
+          {/* 
           <div className="rounded-full border border-dark-grey mr-3 w-12 h-12 flex items-center justify-center">
             <img className="w-1/2" src="/icons/insta.svg" alt="" />
           </div>
+           */} 
           <div className="rounded-full border border-dark-grey mr-3 w-12 h-12 flex items-center justify-center">
-            <img className="w-1/2" src="/icons/linkedIn.svg" alt="" />
+            <a 
+              href="https://www.linkedin.com/company/toggle-tech-lab" 
+              rel="noreferrer" 
+              target="_blank" 
+            >
+              <img className="w-2/2" src="/icons/linkedIn.svg" alt="" />
+            </a>
           </div>
           <div className="rounded-full border border-dark-grey mr-3 w-12 h-12 flex items-center justify-center">
-            <img className="w-1/2" src="/icons/whatsapp.svg" alt="" />
+            <a 
+              href="https://wa.me/+16044045571" 
+              rel="noreferrer"
+              target="_blank" 
+            >
+              <img className="w-2/2" src="/icons/whatsapp.svg" alt="" />
+            </a>
           </div>
         </div>
+      </div>
+      <div className="md:flex justify-between md:mb-5">
+      <h4 className="text-white text-xl md:text-xl mb-8">talk@toggletechlab.com</h4>
       </div>
     </div>
   );

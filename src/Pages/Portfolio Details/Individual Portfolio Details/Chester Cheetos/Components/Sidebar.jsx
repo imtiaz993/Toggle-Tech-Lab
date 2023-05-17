@@ -11,28 +11,27 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Unity Game Engine
+               Phaser.js Game Engine
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">API Development</div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">3DS Max</div>
+              <div className="text-grey">AdobeXD</div>
             </li>
           </ul>
         </div>
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
-        </h1>
+Web Game        </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Meta Quest 1 & 2
-              </div>
+PC, Tablet and Mobile              
+</div>
             </li>
           </ul>
         </div>
@@ -43,14 +42,18 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
+          <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+                <a href="https://www.tastyrewards.com/en-ca" rel="noreferrer" target="_blank">
+                Tasty Rewards</a> 
+
               </div>
             </li>
+            
             <li className="text-gold">
               <div className="text-grey">
-              https://www.neurodivr.com/
+                <a href="https://chestergame.netlify.app/" rel="noreferrer" target="_blank">
+                Play the game here </a> 
               </div>
             </li>
           </ul>

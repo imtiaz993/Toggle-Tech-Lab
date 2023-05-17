@@ -15,7 +15,7 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">Firebase</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
@@ -43,16 +43,12 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
-              <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+          <li className="text-gold">
+            <div className="text-grey">
+                <a href=" https://www.vr-rn.com/" target="_blank">
+                   VR RN</a>
               </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
-              </div>
-            </li>
+            </li>        
           </ul>
         </div>
       </div>

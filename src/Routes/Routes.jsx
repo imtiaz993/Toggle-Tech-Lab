@@ -13,7 +13,7 @@ import ScrollToTop from "../Common/ScrollToTop";
 const WebRoutes = () => {
   return (
     <BrowserRouter>
-     <ScrollToTop/>
+    <ScrollToTop/>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

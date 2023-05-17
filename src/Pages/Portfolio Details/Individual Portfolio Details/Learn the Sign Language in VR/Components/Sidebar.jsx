@@ -15,7 +15,10 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">Gesture recogition</div>
+            </li>
+            <li className="text-gold">
+              <div className="text-grey">Firebase</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
@@ -45,12 +48,28 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+              <a href=" https://axonpark.com/how-effective-is-vr-training-13-case-studies-and-examples/"target="_blank">
+              Effectiveness of learning in VR</a> 
               </div>
+            </li>
+            <li>
+            <div className="text-grey">
+              <a 
+                href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf"
+                rel="noreferrer" 
+                target="_blank"
+              >
+                PROVIDING COMPREHENSIVE THERAPY FOR CHILDREN WITH AUTISM SPECTRUM DISORDER BY USING A VIRTUAL REALITY
+                APPLICATION
+              </a>
+            </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">
-              https://www.neurodivr.com/
+              <a href=" https://www.neurodivr.com/" target="_blank">
+              NeurodiVR
+                </a>
+             
               </div>
             </li>
           </ul>

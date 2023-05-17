@@ -25,37 +25,19 @@ const Sidebar = () => {
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
-        </h1>
+Mobile Game
+  </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Meta Quest 1 & 2
+               iPhone
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div className="mb-10">
-        <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          From The Experts
-        </h1>
-        <div>
-          <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
-              <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+      
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
           Questions?

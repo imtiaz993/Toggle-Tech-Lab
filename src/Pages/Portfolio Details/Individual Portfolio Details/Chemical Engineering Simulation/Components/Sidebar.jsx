@@ -15,7 +15,7 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">WebGL</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
@@ -25,13 +25,12 @@ const Sidebar = () => {
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
-        </h1>
+PC 3D Game Training Simulation</h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Meta Quest 1 & 2
+               Windows, Mac
               </div>
             </li>
           </ul>
@@ -43,14 +42,10 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
+          <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
-              </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
+              <a href=" https://axonpark.com/how-effective-is-vr-training-13-case-studies-and-examples/"target="_blank">
+              Effectiveness of learning in VR</a> 
               </div>
             </li>
           </ul>

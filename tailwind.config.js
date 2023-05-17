@@ -1,6 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{html,jsx}"],
   theme: {
     fontFamily: {
       'dual': ['Dual'],
@@ -17,6 +17,7 @@ module.exports = {
       '4xl': '60px',
     },
     screens:{
+      'xs': '510px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
@@ -47,11 +48,13 @@ module.exports = {
         '110':'470px',
       },
       height:{
+        '68': '37rem',
+        '72': '30rem',
+        '74': '18rem',
         '100':'450px',
         '110':'470px',
       },
       maxWidth: {
-       
         'screen-xxl':'1500px',
         'screen-2xl': '1720px',
       },
@@ -60,10 +63,5 @@ module.exports = {
       }
     },
   },
-  variants: {
-    extend: {
-      padding:['hover'],
-    },
-  },
   plugins: [],
-}
+};

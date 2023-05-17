@@ -15,7 +15,7 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">360 </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>

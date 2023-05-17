@@ -5,39 +5,39 @@ const projects = [
   {
     name:"portfolio",
     type: "Virtual Reality",
-    img: "/images/Portfolio/vr.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/vr-min.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Augmented Reality",
-    img: "/images/Portfolio/ar.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/ar-min.png",
     icon:"ar"
   },
   {
     name:"portfolio",
     type: "Medical Simulations",
-    img: "/images/Portfolio/medical.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/medical-min.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Training Simulations",
-    img: "/images/Portfolio/training.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/training-min.png",
     icon:"vr"
   },
 
   {
     name:"portfolio",
     type: "AI, Metaverse",
-    img: "/images/Portfolio/metaverse.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/metaverse-min.png",
     icon:"metaverse"
   },
 
   {
     name:"portfolio",
     type: "3D and 2D Games",
-    img: "/images/Portfolio/games.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/games-min.png",
     icon:"games"
   },
 ];
@@ -47,7 +47,7 @@ const CaseStudy = () => {
       <h1 className="text-gold text-base uppercase mb-4">Case Study</h1>
       <div className="md:flex justify-between items-center  mb-8">
         <h1 className="text-white text-xl md:text-2xl">
-          Our Works
+          Our Work
           <br /> Speaks For Itself
         </h1>
         <Link to="/service">
@@ -62,3 +62,4 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
+

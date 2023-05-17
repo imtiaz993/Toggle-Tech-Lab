@@ -5,99 +5,77 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+        Body Walkthrough in VR
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div  className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/walkthrough_cover2.png"
           alt=""
         />
         </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+          Imagine learning about your diagnosis in VR as the doctor in the office walks you
+          through your body, layer by layer. This is what this proof of concept aim to do.
+          Made for a medical company that offers
+          patients a way to learn more about their diagnosis in VR.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
+          Unlike other 3The 3D model used is one of a real patient.  A scan of a patient 
+          has been converted into a 3D model which is then projected in VR.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+        The initial proof of concept went through iterations in order to
+        finesse the scan into a 3D model which could then be used in VR.
+    Eventually coming to a stage where each layer of the body such as the
+    skin, muscles, tissue could be unmasked to zoom in and
+    out into key organs of the body relevant to the patient’s diagnosis.
         </p>
       </div>
-      <div className="mb-16">
+      <div className="mb-3">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
+          Built for Meta Quest 1 & 2 using Unreal Engine 4
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
-          alt=""
-        />
+
+        <div className="flex sm:flex-row flex-col gap-3 items-center">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough2.PNG"
+            alt=""
+            ContentType = "image/jpeg"
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough3.PNG"
+            alt=""
+          />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
-          alt=""
+      <div  className="flex flex-row space-x-2.5 justify-start">
+        <div>
+        {/* <iframe
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/walkthroughgif1.gif"
+          width="650"
+          height="650"
+          allowFullScreen
+          title="walkthroughgif1"
+        /> */}
+        <img 
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/walkthroughgif1.gif"
+          alt="gif"
+          width="650"
+          height="650" 
         />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
+        </div> 
       </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
-          alt=""
-        />
+
+      <div className="flex items-center">
+
         </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
+
+ 
       </div>
-    </div>
   );
 };
-
 export default Detail;
+

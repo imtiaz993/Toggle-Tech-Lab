@@ -5,99 +5,90 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
-        </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        Police Simulator        </h1>
+        <div  className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/pcover-min.PNG"
           alt=""
         />
         </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+        Police simulator games have gained popularity in 
+        recent years due to the growing interest in realistic and immersive gaming
+         experiences. These games offer players a chance to experience what it's like to be a
+          police officer, from responding to emergency calls to conducting investigations and
+           making arrests. The rise of streaming platforms like Twitch and YouTube has also contributed to
+            the popularity of police simulator games, as players can share their gameplay experiences with 
+            others and build communities around the games. Furthermore, the current social climate and 
+            discussions around police reform have made these games a subject of debate, with some
+             questioning whether they reinforce or 
+        challenge traditional notions of law enforcement.
         </p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
-        </p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
-        </p>
+        
+        
       </div>
-      <div className="mb-16">
+      <div className="">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
+          Built for iPhone using Unity Engine
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
-          alt=""
-        />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-      </div>
-      <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
-          alt=""
-        />
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p2-min.png"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p1-min.png"
+            alt=""
+          />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
-      </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
-          alt=""
-        />
+
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p3-min.png"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p4-min.png"
+            alt=""
+          />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
+
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p5-min.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p6-min.PNG"
+            alt=""
+          />
+        </div>
+
+        <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <video 
+            controls
+            poster="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/police_simulator_game_thumbnail.PNG"
+            className="cursor-pointer"
+          >
+            <source 
+              src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/policesimvideo1.mov" 
+              type="video/mp4" 
+            />
+          </video>
+        </div>
       </div>
     </div>
+  
   );
 };
 
 export default Detail;
+

@@ -1,197 +1,194 @@
-import React, { useEffect, useState, useCallback, useMemo } from "react";
-import ProjectsList from "../../../Common/ProjectsList";
-import { useLocation } from "react-router-dom";
+import React, { useCallback, useEffect, useMemo, useState } from "react"
+
+import ProjectsList from "../../../Common/ProjectsList"
+import { useLocation } from "react-router-dom"
 
 const Projects = () => {
-  const location = useLocation();
-  const query = new URLSearchParams(location.search);
-  let typeParam = query.get("type");
+  const location = useLocation()
+  const query = new URLSearchParams(location.search)
+  let typeParam = query.get("type")
   if (typeParam) {
-    typeParam = typeParam.replace(/_/g, " ");
+    typeParam = typeParam.replace(/_/g, " ")
   }
   if (typeParam === "Training Simulations") {
-    typeParam = "Training";
+    typeParam = "Training"
   }
   if (typeParam === "Augmented Reality") {
-    typeParam = "AR";
+    typeParam = "AR"
   }
   if (typeParam === "AI, Metaverse") {
-    typeParam = "AI";
+    typeParam = "AI"
   }
   if (typeParam === "3D and 2D Games") {
-    typeParam = "Games";
+    typeParam = "Games"
   }
   if (typeParam === "3D and 2D Games") {
-    typeParam = "Games";
+    typeParam = "Games"
   }
   if (typeParam === "Virtual Reality") {
-    typeParam = "All Projects";
+    typeParam = "All Projects"
   }
-  const projects = useMemo(() => [
-    //medical
-    {
-      type: "Medical Simulations",
-      name: "RN Training",
-      img: "/images/Portfolio/Medical/VRRN.png",
-      icon: "vr",
-    },
-    {
-      type: "Medical Simulations",
-      name: "Providing Comprehensive Therapy For Children With Autism Spectrum Disorder",
-      img: "/images/Portfolio/Medical/ASU.png",
-      icon: "vr",
-    },
-    {
-      type: "Medical Simulations",
-      name: "Body walkthrough in VR",
-      img: "/images/Portfolio/Medical/UE_MedicalWalkthrough.PNG",
-      icon: "vr",
-    },
-    {
-      type: "Medical Simulations",
-      name: "Noble Pharma App",
-      img: "/images/Portfolio/Medical/noble.png",
-      icon: "vr",
-    },
+  const projects = useMemo(
+    () => [
+      //immersive enviornments
+      {
+        type: "Immersive Enviornments",
+        name: "EcoPod",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopod6.jpeg",
+        icon: "vr",
+      },
+      {
+        type: "Immersive Enviornments",
+        name: "360 degree music video",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/360degvideo/360degmusicvideo.jpg",
+        icon: "vr",
+      },
 
-    {
-      type: "Medical Simulations",
-      name: "Doffle in and out training",
-      img: "/images/Portfolio/Medical/doffle.png",
-      icon: "vr",
-    },
-    //education
-    {
-      type: "Training",
-      name: "Learn the Sign Language in VR",
-      img: "/images/Portfolio/Training/alphabet.png",
-      icon: "vr",
-    },
-    {
-      type: "Training",
-      name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
-      img: "/images/Portfolio/Training/solar.png",
-      icon: "vr",
-    },
-    {
-      type: "Training",
-      name: "Immersive Mind",
-      img: "/images/Portfolio/Training/immersivemind.png",
-      icon: "vr",
-    },
-    {
-      type: "Training",
-      name: "Chemical Engineering Simulation",
-      img: "/images/Portfolio/Games/engineering.png",
-      icon: "vr",
-    },
+      //education
+      {
+        type: "Training",
+        name: "Learn the Sign Language in VR",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang1.PNG",
+        icon: "vr",
+      },
+      {
+        type: "Training",
+        name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG",
+        icon: "vr",
+      },
 
-    //immersive enviornments
-    {
-      type: "Immersive Enviornments",
-      name: "EcoPod",
-      img: "/images/Portfolio/Immersive_Env/ecopod1.png",
-      icon: "vr",
-    },
-    {
-      type: "Immersive Enviornments",
-      name: "360 degree music video",
-      img: "/images/Portfolio/Immersive_Env/360music.png",
-      icon: "vr",
-    },
+      {
+        type: "Training",
+        name: "Chemical Engineering Simulation",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/cover_chemengg.PNG",
+        icon: "vr",
+      },
+      //medical
 
-    //Brand activation
+      {
+        type: "Medical Simulations",
+        name: "Providing Comprehensive Therapy For Children With Autism Spectrum Disorder",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ASU/ASU1.PNG",
+        icon: "vr",
+      },
+      {
+        type: "Medical Simulations",
+        name: "Body walkthrough in VR",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough3.PNG",
+        icon: "vr",
+      },
+      {
+        type: "Medical Simulations",
+        name: "Noble Pharma App",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/noble_pharma_cover.PNG",
+        icon: "vr",
+      },
+      {
+        type: "Medical Simulations",
+        name: "RN Training",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn2.jpg",
+        icon: "vr",
+      },
 
-    {
-      type: "Brand Activations",
-      name: "The ART Room - Ukraine",
-      img: "/images/Portfolio/AR/ukraine_ar.jpeg",
-      icon: "vr",
-    },
-    //games
-    {
-      type: "Games",
-      name: "Chester Cheetos",
-      img: "/images/Portfolio/Games/chester.png",
-      icon: "games",
-    },
-    {
-      type: "Games",
-      name: "Police Simulator",
-      img: "/images/Portfolio/Games/policesim.png",
-      icon: "games",
-    },
-    {
-      type: "Games",
-      name: "Chemical Engineering Simulation",
-      img: "/images/Portfolio/Games/engineering.png",
-      icon: "games",
-    },
+      //Brand activation
 
-    //AI
-    {
-      type: "AI",
-      name: "Customer service in the Metaverse",
-      img: "/images/Portfolio/AI/DCL_voctiv.png",
-      icon: "metaverse",
-    },
+      {
+        type: "Brand Activations",
+        name: "The ART Room - Ukraine",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2.PNG",
+        icon: "vr",
+      },
+      //games
+      {
+        type: "Games",
+        name: "Chester Cheetos",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/cover-min.PNG",
+        icon: "games",
+      },
+      {
+        type: "Games",
+        name: "Police Simulator",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/pcover-min.PNG",
+        icon: "games",
+      },
+      {
+        type: "Games",
+        name: "Chemical Engineering Simulation",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/cover_chemengg.PNG",
+        icon: "games",
+      },
+
+      //AI
+      {
+        type: "AI",
+        name: "Customer service in the Metaverse",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/CustomerServiceMetaverse/decentraland_metaverse_thumbnail.PNG",
+        icon: "metaverse",
+      },
+      /*
     {
       type: "AI",
       name: "Waajoo Africa Metaverse Prototype",
-      img: "/images/Portfolio/AI/waajoo.png",
+      img: "",
       icon: "metaverse",
     },
+*/
+      // Augmented reality
+      {
+        type: "AR",
+        name: "Sprint AR",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint_AR_cover.jpg",
+        icon: "ar",
+      },
+      {
+        type: "AR",
+        name: "Noble Pharma App",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/noble_pharma_cover.PNG",
+        icon: "ar",
+      },
+      {
+        type: "AR",
+        name: "The ART Room - Ukraine",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2.PNG",
+        icon: "ar",
+      },
+      {
+        type: "AR",
+        name: "Inverse Surveillance",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover-min.PNG",
+        icon: "ar",
+      },
+      {
+        type: "Training",
+        name: "Immersive Mind",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ImmersiveMind/immersivemind-min.png",
+        icon: "vr",
+      },
+    ],
+    []
+  )
 
-    // Augmented reality
-    {
-      type: "AR",
-      name: "Sprint AR",
-      img: "/images/Portfolio/AR/sprintAR.png",
-      icon: "ar",
+  const [sorted, setSorted] = useState(projects)
+  const [selected, setSelected] = useState("All Projects")
+  const handleSort = useCallback(
+    (value) => {
+      if (value === "All Projects") {
+        setSorted(projects)
+        setSelected("All Projects")
+      } else {
+        setSorted(projects.filter((item) => item.type === value))
+        setSelected(value)
+      }
     },
-    {
-      type: "AR",
-      name: "Noble Pharma App",
-      img: "/images/Portfolio/Medical/noble.png",
-      icon: "ar",
-    },
-    {
-      type: "AR",
-      name: "The ART Room - Ukraine",
-      img: "/images/Portfolio/AR/ukraine_ar.jpeg",
-      icon: "ar",
-    },
-    {
-      type: "AR",
-      name: "Inverse Surveillance",
-      img: "/images/Portfolio/AR/inverse.png",
-      icon: "ar",
-    },
-    {
-      type: "AR",
-      name: "The United Prospectors Guild",
-      img: "/images/Portfolio/AR/unitedgild2.png",
-      icon: "ar",
-    },
-  ], []);
-
-  const [sorted, setSorted] = useState(projects);
-  const [selected, setSelected] = useState("All Projects");
-  const handleSort = useCallback((value) => {
-    if (value === "All Projects") {
-      setSorted(projects);
-      setSelected("All Projects");
-    } else {
-      setSorted(projects.filter((item) => item.type === value));
-      setSelected(value);
-    }
-  }, [projects]);
+    [projects]
+  )
 
   useEffect(() => {
     if (typeParam) {
-      handleSort(typeParam);
+      handleSort(typeParam)
     }
-  }, [handleSort, typeParam]);
+  }, [handleSort, typeParam])
   return (
     <>
       <div>
@@ -204,7 +201,7 @@ const Projects = () => {
         <div className="flex overflow-auto pb-4 w-11/12 ml-auto md:w-3/4  md:mx-auto">
           <div
             onClick={() => {
-              handleSort("All Projects");
+              handleSort("All Projects")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "All Projects"
@@ -216,7 +213,7 @@ const Projects = () => {
           </div>
           <div
             onClick={() => {
-              handleSort("Immersive Enviornments");
+              handleSort("Immersive Enviornments")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Immersive Enviornments"
@@ -228,7 +225,7 @@ const Projects = () => {
           </div>
           <div
             onClick={() => {
-              handleSort("Brand Activations");
+              handleSort("Brand Activations")
             }}
             className={`rounded-3xl cursor-pointer text-base border  whitespace-nowrap ${
               selected === "Brand Activations"
@@ -240,7 +237,7 @@ const Projects = () => {
           </div>
           <div
             onClick={() => {
-              handleSort("Training");
+              handleSort("Training")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Training"
@@ -252,7 +249,7 @@ const Projects = () => {
           </div>
           <div
             onClick={() => {
-              handleSort("Games");
+              handleSort("Games")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Games"
@@ -265,7 +262,7 @@ const Projects = () => {
 
           <div
             onClick={() => {
-              handleSort("Medical Simulations");
+              handleSort("Medical Simulations")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "Medical Simulations"
@@ -278,7 +275,7 @@ const Projects = () => {
 
           <div
             onClick={() => {
-              handleSort("AI");
+              handleSort("AI")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "AI"
@@ -291,7 +288,7 @@ const Projects = () => {
 
           <div
             onClick={() => {
-              handleSort("AR");
+              handleSort("AR")
             }}
             className={`rounded-3xl cursor-pointer text-base  border whitespace-nowrap ${
               selected === "AR"
@@ -307,7 +304,7 @@ const Projects = () => {
         <ProjectsList sorted={sorted} />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

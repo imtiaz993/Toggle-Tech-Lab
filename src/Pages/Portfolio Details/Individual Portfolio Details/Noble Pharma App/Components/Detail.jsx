@@ -1,99 +1,165 @@
 import React from "react";
-
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 const Detail = () => {
   return (
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+         Noble Pharmaceutical AR App
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div  className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/asulogo.jpg"
+          className="w-half h-half object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/NoblePharmaLogo.png"
           alt=""
         />
         </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+        Noble is a well-known name in the medical device training solutions industry. 
+        They specialize in developing patient on-boarding strategies and creating multi-sensory 
+        product development for pharmaceutical brands. Recently, in collaboration with Aptar Pharma, 
+        Noble has launched AdhereITTM, a patient on-boarding product specifically designed for 
+        patients with chronic conditions who use auto injectors to self-administer their medications at home.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
+        Patients with chronic conditions who require auto injectors to self-administer their medications often experience anxiety and apprehension. To help alleviate these fears, an AR training app has been developed by Noble. The app employs augmented reality to teach patients how to correctly use the auto injector, 
+        allowing them to visualize the procedure and overcome any self-doubts they may have. (from{" "}
+          <a href="https://noblepharmallc.com/">
             here
           </a>
           )
         </p>
+        <h1 className="text-white text-xl md:text-2xl mb-8">
+          Built for Android and iPhone Unity Engine
+        </h1>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+        The AdhereITTM product, developed by Noble and Aptar Pharma, is an innovative solution to the common
+         issues faced by patients with chronic conditions. The app's user-friendly interface and engaging 
+         visuals make it easy for patients to learn and master the correct technique for administering their
+          medication. AdhereITTM is set to become a significant tool in the healthcare industry, 
+        helping patients to manage their chronic conditions with greater ease and confidence.
         </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+Tweet here
+<TwitterTweetEmbed
+  tweetId={'1620867127103078400'}
+/>
+</p>
+
       </div>
+      <div className="mb-16">
+ 
+        <h1 className="text-white text-xl md:text-2xl mb-1">Training on device #1</h1>
+
+        <div  className="flex flex-row space-x-2.5">
+        <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG"
+          alt=""
+        />
+        </div>
+
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/welcome.jpeg"
+          alt=""
+        />
+          </div>
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_1_a.jpeg"
+          alt=""
+        />
+          </div>
+
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_2_a.jpeg"
+          alt=""
+        />
+          </div>
+          </div>
+          </div>
+
+
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
-        </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU2.png"
+         </h1>
+        <div  className="flex flex-row space-x-2.5">
+
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_3_a.jpeg"
           alt=""
         />
+          </div>
+           
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_4_a.jpeg"
+          alt=""
+        />
+          </div>
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_5_a.jpeg"
+          alt=""
+        />
+          </div>
+          
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_5_a.jpeg"
+          alt=""
+        />
+          </div>
         </div>
         <p className="text-grey text-base md:text-lg mt-6"></p>
         <p className="text-grey text-base md:text-lg mt-6"></p>
       </div>
+      
       <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU3.png"
+        <h1 className="text-white text-xl md:text-2xl mb-1">Training on device #2</h1>
+        <div  className="flex flex-row space-x-2.5">
+        <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/welcome.jpeg"
           alt=""
         />
-        </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
-      </div>
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">Future direction</h1>
-      <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-        <img
-          className="w-full h-full object-contain"
-          src="/images/Portfolio Details/ASU/ASU1.png"
+          </div>
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step1.jpeg"
           alt=""
         />
-        </div>
+          </div>
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step2.jpeg"
+          alt=""
+        />
+          </div>
+          <div>
+          <img
+          className="w-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step3.jpeg"
+          alt=""
+        />
+          </div>
+          </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
+
         </p>
       </div>
     </div>

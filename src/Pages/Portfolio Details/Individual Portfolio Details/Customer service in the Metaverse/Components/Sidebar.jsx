@@ -11,27 +11,27 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Unity Game Engine
+              JavaScript, Python & Unity Game Engine
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">Google Cloud</div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">3DS Max</div>
+              <div className="text-grey">Bot</div>
             </li>
           </ul>
         </div>
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
+          3D Metaverse
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Meta Quest 1 & 2
+              PC Web
               </div>
             </li>
           </ul>
@@ -45,12 +45,18 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+
               </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">
-              https://www.neurodivr.com/
+                <a 
+                  href="https://www.innovationinbusiness.com/how-the-metaverse-will-impact-customer-service/" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  How the Metaverse Will Impact Customer Service
+                </a>
               </div>
             </li>
           </ul>

@@ -15,7 +15,7 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">Firebase</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
@@ -25,7 +25,7 @@ const Sidebar = () => {
       </div>
       <div className="mb-10">
         <h1 className="text-white text-md mb-4 pb-4 border-b border-dark-grey">
-          VR (Virtual Reality)
+          AR (Augmented Reality)
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
@@ -43,14 +43,29 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
-            <li className="text-gold">
+          <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+              <a href="https://www.gonoble.com/" rel="noreferrer" target="_blank">
+              Noble: Autoinjector - Drug Delivery Training Devices</a> 
               </div>
             </li>
             <li className="text-gold">
+            <div className="text-grey">
+              <a 
+                href="https://www.gonoble.com/autoinjector-training-devices/"
+                rel="noreferrer" 
+                target="_blank"
+              >
+                Autoinjector Training Devices
+              </a>
+            </div>
+            </li>
+            <li className="text-gold">
               <div className="text-grey">
-              https://www.neurodivr.com/
+              <a href=" https://play.google.com/store/apps/details?id=com.gonoble.ar&hl=en_CA&gl=US" target="_blank">
+              Noble Experiences
+                </a>
+             
               </div>
             </li>
           </ul>

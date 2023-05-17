@@ -18,6 +18,9 @@ const Sidebar = () => {
               <div className="text-grey">Google Cloud </div>
             </li>
             <li className="text-gold">
+              <div className="text-grey">Firebase</div>
+            </li>
+            <li className="text-gold">
               <div className="text-grey">3DS Max</div>
             </li>
           </ul>

@@ -11,14 +11,17 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-               Unity Game Engine
+             Unreal Game Engine
               </div>
             </li>
             <li className="text-gold">
-              <div className="text-grey">Google Cloud </div>
+              <div className="text-grey">PC VR</div>
             </li>
             <li className="text-gold">
               <div className="text-grey">3DS Max</div>
+            </li>
+            <li className="text-gold">
+              <div className="text-grey">Cinema 4D</div>
             </li>
           </ul>
         </div>
@@ -43,16 +46,27 @@ const Sidebar = () => {
         </h1>
         <div>
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
+
+          <li className="text-gold">
+            <div className="text-grey">
+                <a href="https://oceanbuilders.com/" rel="noreferrer" target="_blank">
+                   Ocean Builders</a>
+              </div>
+            </li>   
+            
             <li className="text-gold">
               <div className="text-grey">
-                Research paper here: https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf
+                <a 
+                  href="https://www.businessinsider.com/take-a-look-floating-pods-panama-costing-millions-2022-8#ocean-builders-uses-steel-tubes-to-create-the-floating-homes-3-meters-above-the-water-in-panamas-linton-bay-marina-5" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Want to live in a home that seems to float above the sea? 
+                  Take a look at these 'living pods' being built in Panama
+                </a>
               </div>
-            </li>
-            <li className="text-gold">
-              <div className="text-grey">
-              https://www.neurodivr.com/
-              </div>
-            </li>
+            </li>   
+
           </ul>
         </div>
       </div>
