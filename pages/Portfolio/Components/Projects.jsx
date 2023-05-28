@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 
 import ProjectsList from "../../../Common/ProjectsList";
-import { useLocation } from "react-router-dom";
+import { useRouter } from "next/router";
 
 const Projects = () => {
-  const location = useLocation();
+  const location = useRouter();
   const query = new URLSearchParams(location.search);
   let typeParam = query.get("type");
   if (typeParam) {

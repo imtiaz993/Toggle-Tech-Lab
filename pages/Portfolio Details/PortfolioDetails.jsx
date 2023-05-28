@@ -1,6 +1,6 @@
 import React from "react";
 import LetsTalk from "../../Common/LetsTalk";
-import { useLocation } from "react-router-dom";
+import { useRouter } from "next/router";
 import RNTraining from "./Individual Portfolio Details/RN Training/RNTraining";
 import DegreeMusicvVideo from "./Individual Portfolio Details/360 degree music video/DegreeMusicvVideo";
 import BodywalkthroughinVR from "./Individual Portfolio Details/Body walkthrough in VR/BodywalkthroughinVR";
@@ -100,7 +100,7 @@ const PortfolioDetails = () => {
       component: WaajooAfricaMetaversePrototype,
     },
   ];
-  const location = useLocation();
+  const location = useRouter();
   const paths = location.pathname.split("/");
   const currentPath = paths[paths.length - 1].replace(/_/g, " ");
   let CurrentComponent;
