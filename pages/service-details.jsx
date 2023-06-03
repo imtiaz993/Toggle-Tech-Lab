@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../Components/Hero";
-import DetailPrevNextWrapper from "../Components/DetailPrevNextWrapper";
+import Hero from "../Components/service-details/Hero";
+import DetailPrevNextWrapper from "../Components/service-details/DetailPrevNextWrapper";
 import ScheduleCall from "../Common/ScheduleCall";
 import LetsTalk from "../Common/LetsTalk";
 

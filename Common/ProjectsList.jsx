@@ -13,8 +13,8 @@ const ProjectsList = ({ sorted }) => {
             key={index}
             href={
               item.name === "portfolio"
-                ? `/portfolio?type=${item.type.replace(/ /g, "_")}`
-                : `/portfolio-details/${item.name.replace(/ /g, "_")}`
+                ? `/Portfolio?type=${item.type.replace(/ /g, "_")}`
+                : `/Portfolio-details/${item.name.replace(/ /g, "_")}`
             }
           >
             <div className="mb-4 cursor-pointer">

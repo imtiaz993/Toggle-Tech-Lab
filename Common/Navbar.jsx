@@ -40,10 +40,10 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href="/about">
+            <Link href="/About">
               <a
                 className={
-                  isActive === "/about"
+                  isActive === "/About"
                     ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
                     : "mr-4 lg:mr-6 pb-2 text-grey"
                 }
@@ -51,10 +51,10 @@ const Navbar = () => {
                 About
               </a>
             </Link>
-            <Link href="/services">
+            <Link href="/Services">
               <a
                 className={
-                  isActive === "/services"
+                  isActive === "/Services"
                     ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
                     : "mr-4 lg:mr-6 pb-2 text-grey"
                 }
@@ -62,10 +62,10 @@ const Navbar = () => {
                 Services
               </a>
             </Link>
-            <Link href="/portfolio">
+            <Link href="/Portfolio">
               <a
                 className={
-                  isActive === "/portfolio"
+                  isActive === "/Portfolio"
                     ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
                     : "mr-4 lg:mr-6 pb-2 text-grey"
                 }
@@ -74,7 +74,7 @@ const Navbar = () => {
               </a>
             </Link>
             <Link
-              href="/contact"
+              href="/Contact"
               className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
             >
               <a className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6">
@@ -128,11 +128,11 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/about"
+                href="/About"
               >
                 <span
                   className={
-                    isActive === "/about" ? "mb-4 text-white" : "mb-4 text-grey"
+                    isActive === "/About" ? "mb-4 text-white" : "mb-4 text-grey"
                   }
                   onClick={() => {
                     setShowOptions(!showOptions);
@@ -142,11 +142,11 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/services"
+                href="/Services"
               >
                 <span
                   className={
-                    isActive === "/services"
+                    isActive === "/Services"
                       ? "mb-4 text-white"
                       : "mb-4 text-grey"
                   }
@@ -158,11 +158,11 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/portfolio"
+                href="/Portfolio"
               >
                 <span
                   className={
-                    isActive === "/portfolio"
+                    isActive === "/Portfolio"
                       ? "mb-4 text-white"
                       : "mb-4 text-grey"
                   }
@@ -173,7 +173,7 @@ const Navbar = () => {
                   Case Studies
                 </span>
               </Link>
-              <Link href="/contact">
+              <Link href="/Contact">
                 <span
                   className="inline-block mt-4 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
                   onClick={() => {

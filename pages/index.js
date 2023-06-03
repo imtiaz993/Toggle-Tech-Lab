@@ -1,4 +1,4 @@
-import Home from ".";
+import Home from "./home";
 
 
 export default function Index() {

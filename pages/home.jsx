@@ -1,15 +1,15 @@
-import Hero from "../Components/Hero";
+import Hero from "../Components/home/Hero";
 import Partners from "../Common/Partners";
-import Build from "../Components/Build";
-import ProptypeProduct from "../Components/ProptypeProduct";
-import Services from "../Components/Services";
-import Contact from "../Components/Contact";
-import CaseStudy from "../Components/CaseStudy";
-import ServicesCopy from "../Components/ServicesCopy";
-import Testimonials from "../Components/Testimonials";
+import Build from "../Components/home/Build";
+import ProptypeProduct from "../Components/home/ProptypeProduct";
+import Services from "../Components/home/Services";
+import Contact from "../Components/home/Contact";
+import CaseStudy from "../Components/home/CaseStudy";
+import ServicesCopy from "../Components/home/ServicesCopy";
+import Testimonials from "../Components/home/Testimonials";
 import ScheduleCall from "../Common/ScheduleCall";
 import LetsTalk from "../Common/LetsTalk";
-import HeaderVideo from "../Components/HeaderVideo";
+import HeaderVideo from "../Components/home/HeaderVideo";
 
 const Home = () => {
   const handleClickScroll = () => {
