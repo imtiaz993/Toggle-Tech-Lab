@@ -43,7 +43,7 @@ const Hero = ({ handleClickScroll, handleHeaderVideo }) => {
               >
                 Get Started
               </button>
-              <Link className="mt-4 md:mt-0 sm:block hidden" href="/Portfolio">
+              <Link className="mt-4 md:mt-0 sm:block hidden" href="/portfolio">
                 <button className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4">
                   Watch a Demo
                 </button>

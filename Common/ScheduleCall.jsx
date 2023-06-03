@@ -23,7 +23,7 @@ const ScheduleCall = () => {
           </p>
         </div>
         <div className="mt-4 lg:mt-0 lg:w-2/5 flex items-center lg:justify-end">
-          <Link href="/Contact" >
+          <Link href="/contact" >
             <span className="flex items-center lg:justify-end cursor-pointer">
               <span className="text-xl md:text-2xl text-gold mr-4 underline">
                 Schedule a Call

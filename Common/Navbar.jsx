@@ -40,7 +40,7 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href="/About">
+            <Link href="/about">
               <a
                 className={
                   isActive === "/About"
@@ -51,7 +51,7 @@ const Navbar = () => {
                 About
               </a>
             </Link>
-            <Link href="/Services">
+            <Link href="/services">
               <a
                 className={
                   isActive === "/Services"
@@ -62,7 +62,7 @@ const Navbar = () => {
                 Services
               </a>
             </Link>
-            <Link href="/Portfolio">
+            <Link href="/portfolio">
               <a
                 className={
                   isActive === "/Portfolio"
@@ -74,7 +74,7 @@ const Navbar = () => {
               </a>
             </Link>
             <Link
-              href="/Contact"
+              href="/contact"
               className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
             >
               <a className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6">
@@ -128,7 +128,7 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/About"
+                href="/about"
               >
                 <span
                   className={
@@ -142,7 +142,7 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/Services"
+                href="/services"
               >
                 <span
                   className={
@@ -158,7 +158,7 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/Portfolio"
+                href="/portfolio"
               >
                 <span
                   className={
@@ -173,7 +173,7 @@ const Navbar = () => {
                   Case Studies
                 </span>
               </Link>
-              <Link href="/Contact">
+              <Link href="/contact">
                 <span
                   className="inline-block mt-4 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
                   onClick={() => {

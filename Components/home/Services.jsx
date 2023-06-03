@@ -7,7 +7,7 @@ const Services = () => {
       <h1 className="text-gold text-base uppercase mb-4">Services</h1>
       <div className="md:flex justify-between items-center  mb-8">
         <h1 className="text-white text-xl md:text-2xl">What We Do</h1>
-        <Link href="/Services">
+        <Link href="/services">
           <button className="text-gold text-base md:text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
             View All Services
           </button>
@@ -27,7 +27,7 @@ const Services = () => {
               that allow startups to visualize their concepts in a fully
               immersive environment.
             </p>
-            <Link href="/About">
+            <Link href="/about">
               <p className="text-gold text-base md:text-lg mt-4">Read More</p>
             </Link>
           </div>
@@ -44,7 +44,7 @@ const Services = () => {
               We create XR experiences such as immersive tours, meditative
               experiences and more
             </p>
-            <Link href="/About">
+            <Link href="/about">
               <p className="text-gold text-base md:text-lg mt-4">Read More</p>
             </Link>
           </div>
@@ -61,7 +61,7 @@ const Services = () => {
               Over 9 years of experience in creating training simulations across
               various industries such as healthcare, engineering & education.
             </p>
-            <Link href="/About">
+            <Link href="/about">
               <p className="text-gold text-base md:text-lg mt-4">Read More</p>
             </Link>
           </div>

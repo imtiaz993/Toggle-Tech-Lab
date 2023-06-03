@@ -21,7 +21,7 @@ const Contact = () => {
           </h1>
         </div>
         <div className="md:w-2/5 md:flex justify-end">
-          <Link href="/Contact">
+          <Link href="/contact">
             <button className="text-black font-medium text-base md:text-lg bg-gold rounded-3xl py-2 px-5 mr-4">
               Contact Us
             </button>

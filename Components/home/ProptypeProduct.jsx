@@ -93,7 +93,7 @@ const ProptypeProduct = () => {
             </div>
           </div>
 
-          <Link href="/About">
+          <Link href="/about">
             <button className="text-gold text-base md:text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 ">
               Read More
             </button>
