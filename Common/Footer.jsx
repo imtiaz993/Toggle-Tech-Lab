@@ -5,14 +5,20 @@ const Footer = () => {
   return (
     <div className="w-11/12  md:w-3/4 mx-auto lg:flex justify-between text-grey text-sm py-8 border-t border-dark-grey">
       <div className="flex flex-wrap md:w-3/4 xl:w-auto">
-        <Link href="/about" className="mr-4">
+        <Link href="/about">
+          <a className="mr-4">
           About Us
+          </a>
         </Link>
-        <Link href="/contact" className="mr-4">
+        <Link href="/contact" >
+        <a className="mr-4">
           Contact
+          </a>
         </Link>
-        <Link href="/service" className="mr-4">
+        <Link href="/services" >
+        <a className="mr-4">
           Services
+          </a>
         </Link>
         {/* <Link href='/' className="mr-4">Privacy Policy</Link>
         <Link href='/' className="mr-4">Terms & Conditions</Link> */}

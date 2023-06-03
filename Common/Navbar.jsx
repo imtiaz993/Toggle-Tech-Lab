@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
+  const isActive = router.pathname;
   const [showOptions, setShowOptions] = useState(false);
 
   useEffect(() => {
@@ -26,51 +29,57 @@ const Navbar = () => {
             />
           </Link>
           <div className="flex items-center text-base md:text-lg">
-            <Link
-              href="/"
-              className={({ isActive }) =>
-                isActive
-                  ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
-                  : "mr-4 lg:mr-6 pb-2 text-grey"
-              }
-            >
-              Home
+            <Link href="/">
+              <a
+                className={
+                  isActive === "/"
+                    ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
+                    : "mr-4 lg:mr-6 pb-2 text-grey"
+                }
+              >
+                Home
+              </a>
             </Link>
-            <Link
-              href="/about"
-              className={({ isActive }) =>
-                isActive
-                  ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
-                  : "mr-4 lg:mr-6 pb-2 text-grey"
-              }
-            >
-              About
+            <Link href="/about">
+              <a
+                className={
+                  isActive === "/about"
+                    ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
+                    : "mr-4 lg:mr-6 pb-2 text-grey"
+                }
+              >
+                About
+              </a>
             </Link>
-            <Link
-              href="/service"
-              className={({ isActive }) =>
-                isActive
-                  ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
-                  : "mr-4 lg:mr-6 pb-2 text-grey"
-              }
-            >
-              Services
+            <Link href="/services">
+              <a
+                className={
+                  isActive === "/services"
+                    ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
+                    : "mr-4 lg:mr-6 pb-2 text-grey"
+                }
+              >
+                Services
+              </a>
             </Link>
-            <Link
-              href="/portfolio"
-              className={({ isActive }) =>
-                isActive
-                  ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
-                  : "mr-4 lg:mr-6 pb-2 text-grey"
-              }
-            >
-              Case Studies
+            <Link href="/portfolio">
+              <a
+                className={
+                  isActive === "/portfolio"
+                    ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
+                    : "mr-4 lg:mr-6 pb-2 text-grey"
+                }
+              >
+                Case Studies
+              </a>
             </Link>
             <Link
               href="/contact"
               className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
             >
-              Contact
+              <a className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6">
+                Contact
+              </a>
             </Link>
           </div>
         </div>
@@ -106,58 +115,73 @@ const Navbar = () => {
             className={`${showOptions ? "h-screen" : "h-0 overflow-hidden"}`}
           >
             <ul className="inline-flex flex-col mt-6">
-              <Link
-                href="/"
-                className={({ isActive }) =>
-                  isActive ? "mb-4 text-white" : "mb-4 text-grey"
-                }
-                onClick={() => {
-                  setShowOptions(!showOptions);
-                }}
-              >
-                Home
+              <Link href="/">
+                <span
+                  className={
+                    isActive === "/" ? "mb-4 text-white" : "mb-4 text-grey"
+                  }
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  Home
+                </span>
               </Link>
               <Link
                 href="/about"
-                className={({ isActive }) =>
-                  isActive ? "mb-4 text-white" : "mb-4 text-grey"
-                }
-                onClick={() => {
-                  setShowOptions(!showOptions);
-                }}
               >
-                About
+                <span
+                  className={
+                    isActive === "/about" ? "mb-4 text-white" : "mb-4 text-grey"
+                  }
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  About
+                </span>
               </Link>
               <Link
-                href="/service"
-                className={({ isActive }) =>
-                  isActive ? "mb-4 text-white" : "mb-4 text-grey"
-                }
-                onClick={() => {
-                  setShowOptions(!showOptions);
-                }}
+                href="/services"
               >
-                Services
+                <span
+                  className={
+                    isActive === "/services"
+                      ? "mb-4 text-white"
+                      : "mb-4 text-grey"
+                  }
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  Services
+                </span>
               </Link>
               <Link
                 href="/portfolio"
-                className={({ isActive }) =>
-                  isActive ? "mb-4 text-white" : "mb-4 text-grey"
-                }
-                onClick={() => {
-                  setShowOptions(!showOptions);
-                }}
               >
-                Case Studies
+                <span
+                  className={
+                    isActive === "/portfolio"
+                      ? "mb-4 text-white"
+                      : "mb-4 text-grey"
+                  }
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  Case Studies
+                </span>
               </Link>
-              <Link
-                href="/contact"
-                className="inline-block mt-4 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
-                onClick={() => {
-                  setShowOptions(!showOptions);
-                }}
-              >
-                Contact
+              <Link href="/contact">
+                <span
+                  className="inline-block mt-4 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  Contact
+                </span>
               </Link>
             </ul>
           </div>

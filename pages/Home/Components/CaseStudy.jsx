@@ -50,7 +50,7 @@ const CaseStudy = () => {
           Our Work
           <br /> Speaks For Itself
         </h1>
-        <Link href="/service">
+        <Link href="/services">
           <button className="text-gold text-base md:text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
             View All Services
           </button>

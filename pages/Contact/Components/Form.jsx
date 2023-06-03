@@ -11,7 +11,7 @@ const Form = () => {
   });
   const handleSubmit = () => {
     setLoading(true);
-    fetch("/email-sent", {
+    fetch("https://toggletechlab-backend.herokuapp.com/api/email-sent", {
       method: "POST",
       body: JSON.stringify(mailData),
       headers: {

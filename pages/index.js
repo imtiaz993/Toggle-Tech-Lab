@@ -1,4 +1,5 @@
-import Home from "./Home/Home";
+import Home from "./Home";
+
 
 export default function Index() {
   return <Home />;

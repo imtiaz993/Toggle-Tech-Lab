@@ -101,8 +101,9 @@ const PortfolioDetails = () => {
     },
   ];
   const location = useRouter();
-  const paths = location.pathname.split("/");
+  const paths = location.asPath.split("/");
   const currentPath = paths[paths.length - 1].replace(/_/g, " ");
+  console.log(currentPath)
   let CurrentComponent;
   projectDetailDirectory.map((component) => {
     if (

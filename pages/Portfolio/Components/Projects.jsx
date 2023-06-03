@@ -5,8 +5,9 @@ import { useRouter } from "next/router";
 
 const Projects = () => {
   const location = useRouter();
-  const query = new URLSearchParams(location.search);
-  let typeParam = query.get("type");
+  const typeParam = location.asPath?.split("?")[1]?.split("=")[1];
+  console.log(typeParam);
+  // let typeParam = query.get("type");
   if (typeParam) {
     typeParam = typeParam.replace(/_/g, " ");
   }

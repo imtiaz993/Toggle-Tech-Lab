@@ -17,7 +17,7 @@ const ProjectsList = ({ sorted }) => {
                 : `/portfolio-details/${item.name.replace(/ /g, "_")}`
             }
           >
-            <div className="mb-4">
+            <div className="mb-4 cursor-pointer">
               <div className="relative">
                 <img
                   className="object-fill
