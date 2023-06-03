@@ -1,25 +1,25 @@
 import React from "react";
 import LetsTalk from "../../Common/LetsTalk";
 import { useRouter } from "next/router";
-import RNTraining from "./Individual Portfolio Details/RN Training/RNTraining";
-import DegreeMusicvVideo from "./Individual Portfolio Details/360 degree music video/DegreeMusicvVideo";
-import BodywalkthroughinVR from "./Individual Portfolio Details/Body walkthrough in VR/BodywalkthroughinVR";
-import ChemicalEngineeringSimulation from "./Individual Portfolio Details/Chemical Engineering Simulation/ChemicalEngineeringSimulation";
-import ChesterCheetos from "./Individual Portfolio Details/Chester Cheetos/ChesterCheetos";
-import ComprehensiveTherapyForChildren from "./Individual Portfolio Details/Comprehensive Therapy For Children/ComprehensiveTherapyForChildren";
-import CustomerserviceintheMetaverse from "./Individual Portfolio Details/Customer service in the Metaverse/CustomerserviceintheMetaverse";
-import Doffleinandouttraining from "./Individual Portfolio Details/Doffle in and out training/Doffleinandouttraining";
-import EcoPod from "./Individual Portfolio Details/EcoPod/EcoPod";
-import InverseSurveillance from "./Individual Portfolio Details/Inverse Surveillance/InverseSurveillance";
-import ImmersiveMind from "./Individual Portfolio Details/Immersive Mind/ImmersiveMind";
-import LearntheSignLanguageinVR from "./Individual Portfolio Details/Learn the Sign Language in VR/LearntheSignLanguageinVR";
-import NoblePharmaApp from "./Individual Portfolio Details/Noble Pharma App/NoblePharmaApp";
-import PoliceSimulator from "./Individual Portfolio Details/Police Simulator/PoliceSimulator";
-import SprintAR from "./Individual Portfolio Details/Sprint AR/SprintAR";
-import TeachingSolarEnergySystemsDesign from "./Individual Portfolio Details/Teaching Solar Energy Systems Design/TeachingSolarEnergySystemsDesign";
-import TheARTRoomUkraine from "./Individual Portfolio Details/The ART Room - Ukraine/TheARTRoomUkraine";
-import TheUnitedProspectorsGuild from "./Individual Portfolio Details/The United Prospectors Guild/TheUnitedProspectorsGuild";
-import WaajooAfricaMetaversePrototype from "./Individual Portfolio Details/Waajoo Africa Metaverse Prototype/WaajooAfricaMetaversePrototype";
+import RNTraining from "../../Components/portfolio-details/Individual Portfolio Details/RN Training/RNTraining";
+import DegreeMusicvVideo from "../../Components/portfolio-details/Individual Portfolio Details/360 degree music video/DegreeMusicvVideo";
+import BodywalkthroughinVR from "../../Components/portfolio-details/Individual Portfolio Details/Body walkthrough in VR/BodywalkthroughinVR";
+import ChemicalEngineeringSimulation from "../../Components/portfolio-details/Individual Portfolio Details/Chemical Engineering Simulation/ChemicalEngineeringSimulation";
+import ChesterCheetos from "../../Components/portfolio-details/Individual Portfolio Details/Chester Cheetos/ChesterCheetos";
+import ComprehensiveTherapyForChildren from "../../Components/portfolio-details/Individual Portfolio Details/Comprehensive Therapy For Children/ComprehensiveTherapyForChildren";
+import CustomerserviceintheMetaverse from "../../Components/portfolio-details/Individual Portfolio Details/Customer service in the Metaverse/CustomerserviceintheMetaverse";
+import Doffleinandouttraining from "../../Components/portfolio-details/Individual Portfolio Details/Doffle in and out training/Doffleinandouttraining";
+import EcoPod from "../../Components/portfolio-details/Individual Portfolio Details/EcoPod/EcoPod";
+import InverseSurveillance from "../../Components/portfolio-details/Individual Portfolio Details/Inverse Surveillance/InverseSurveillance";
+import ImmersiveMind from "../../Components/portfolio-details/Individual Portfolio Details/Immersive Mind/ImmersiveMind";
+import LearntheSignLanguageinVR from "../../Components/portfolio-details/Individual Portfolio Details/Learn the Sign Language in VR/LearntheSignLanguageinVR";
+import NoblePharmaApp from "../../Components/portfolio-details/Individual Portfolio Details/Noble Pharma App/NoblePharmaApp";
+import PoliceSimulator from "../../Components/portfolio-details/Individual Portfolio Details/Police Simulator/PoliceSimulator";
+import SprintAR from "../../Components/portfolio-details/Individual Portfolio Details/Sprint AR/SprintAR";
+import TeachingSolarEnergySystemsDesign from "../../Components/portfolio-details/Individual Portfolio Details/Teaching Solar Energy Systems Design/TeachingSolarEnergySystemsDesign";
+import TheARTRoomUkraine from "../../Components/portfolio-details/Individual Portfolio Details/The ART Room - Ukraine/TheARTRoomUkraine";
+import TheUnitedProspectorsGuild from "../../Components/portfolio-details/Individual Portfolio Details/The United Prospectors Guild/TheUnitedProspectorsGuild";
+import WaajooAfricaMetaversePrototype from "../../Components/portfolio-details/Individual Portfolio Details/Waajoo Africa Metaverse Prototype/WaajooAfricaMetaversePrototype";
 
 const PortfolioDetails = () => {
   const projectDetailDirectory = [
