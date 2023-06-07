@@ -73,6 +73,17 @@ const Navbar = () => {
                 Case Studies
               </a>
             </Link>
+            <Link href="/blogs">
+              <a
+                className={
+                  isActive === "/blogs"
+                    ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
+                    : "mr-4 lg:mr-6 pb-2 text-grey"
+                }
+              >
+                Blogs
+              </a>
+            </Link>
             <Link
               href="/contact"
               className="mb-2 text-white border-2 border-gray-400 rounded-3xl py-1 px-6"
@@ -171,6 +182,22 @@ const Navbar = () => {
                   }}
                 >
                   Case Studies
+                </span>
+              </Link>
+              <Link
+                href="/blogs"
+              >
+                <span
+                  className={
+                    isActive === "/blogs"
+                      ? "mb-4 text-white"
+                      : "mb-4 text-grey"
+                  }
+                  onClick={() => {
+                    setShowOptions(!showOptions);
+                  }}
+                >
+                  Blogs
                 </span>
               </Link>
               <Link href="/contact">
