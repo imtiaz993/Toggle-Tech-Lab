@@ -5,7 +5,7 @@ const BlogList = ({ AllBlogs }) => {
   const bogs = useMemo(
     () => [
       {
-        id: "1",
+        id: "12222",
         name: "EcoPod",
         img: "https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopod6.jpeg",
       },
