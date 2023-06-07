@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const Form = () => {
   const [loading, setLoading] = useState(false);
+  const [message,setMessage]=useState('')
   const [mailData, setMailData] = useState({
     name: "",
     phone: "",
@@ -30,9 +31,9 @@ const Form = () => {
             subject: "",
             message: "",
           });
-          alert("Mail sent successfully. We will get back to you very shortly");
+          setMessage("Thank you, for sending us a message. We will get back to you.")
         } else {
-          alert("Something went wrong, Please try again!");
+          setMessage("Something went wrong, Please try again.")
         }
       })
       .catch(() => {
@@ -42,7 +43,7 @@ const Form = () => {
   return (
     <div className="lg:w-4/6">
       <h1 className="text-white text-xl md:text-2xl mb-8">Send Us a Message</h1>
-
+      <p className="text-white text-base mb-4">{message}</p>
       <form
         onSubmit={(e) => {
           e.preventDefault();

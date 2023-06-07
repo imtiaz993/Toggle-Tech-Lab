@@ -4,32 +4,33 @@ import Blogs from "./Blogs";
 import AddBlog from "./AddBlog";
 import AddAdmin from "./AddAdmin";
 
-const DashboardPage = () => {
+const DashboardPage = ({ setToken }) => {
   const [tab, setTab] = useState("blogs");
   const getTab = () => {
+    let currentTab;
     switch (tab) {
       case "blogs":
-        <Blogs />;
+        currentTab = <Blogs />;
         break;
       case "add blog":
-        <AddBlog />;
+        currentTab = <AddBlog />;
         break;
       case "add admin":
-        <AddAdmin />;
+        currentTab = <AddAdmin />;
         break;
 
       default:
         break;
     }
+    return currentTab;
   };
   return (
-    <div className="pt-20 min-h-screen">
-      <Sidebar />
-      <div className="w-[calc(100%-400px)] ml-auto">
-        <AddAdmin />
-      </div>
+    <div className="pt-10 lg:pt-20 min-h-screen">
+      <Sidebar setToken={setToken} setTab={setTab}/>
+      <div className="w-11/12 lg:w-[calc(100%-256px)] mx-auto lg:mx-0 lg:ml-auto">{getTab()}</div>
     </div>
   );
 };
 
 export default DashboardPage;
+ 

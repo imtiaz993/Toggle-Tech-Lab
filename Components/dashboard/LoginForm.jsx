@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const LoginForm = ({ setToken }) => {
   const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
@@ -24,10 +25,10 @@ const LoginForm = ({ setToken }) => {
             email: "",
             password: "",
           });
-          sessionStorage.setItem("token", json.token);
+          sessionStorage.setItem("secret-token-7k@zR", json.token);
           setToken(json.token);
         } else {
-          alert(json.message);
+          setMessage(json.message);
         }
       })
       .catch(() => {
@@ -40,6 +41,7 @@ const LoginForm = ({ setToken }) => {
         Admin Login
       </h1>
 
+      <p className="text-white text-center text-base mb-4">{message}</p>
       <form
         onSubmit={(e) => {
           e.preventDefault();

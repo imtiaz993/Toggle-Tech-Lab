@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const AddAdmin = () => {
   const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
   const [adminDetails, setAdminDetails] = useState({
     firstname: "",
     lastname: "",
@@ -28,8 +29,9 @@ const AddAdmin = () => {
             email: "",
             password: "",
           });
+          setMessage("Admin added successfully");
         } else {
-          alert(json.message);
+          setMessage(json.message);
         }
       })
       .catch(() => {
@@ -37,11 +39,11 @@ const AddAdmin = () => {
       });
   };
   return (
-    <div className="lg:w-4/6 mx-auto min-h-[calc(100vh-105px)]">
+    <div className="max-w-lg lg:w-[calc(100%-256px)] mx-auto min-h-[calc(100vh-105px)]">
       <h1 className="text-white text-xl md:text-2xl text-center mb-8">
         Add Admin
       </h1>
-
+      <p className="text-white text-center text-base mb-4">{message}</p>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -55,7 +57,7 @@ const AddAdmin = () => {
             onChange={(e) => {
               setAdminDetails({ ...adminDetails, firstname: e.target.value });
             }}
-            className="w-full text-base md:text-lg mb-5 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
+            className="w-full text-base md:text-lg mb-2 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="text"
             placeholder="First Name"
             required
@@ -65,7 +67,7 @@ const AddAdmin = () => {
             onChange={(e) => {
               setAdminDetails({ ...adminDetails, lastname: e.target.value });
             }}
-            className="w-full text-base mt-4 md:text-lg mb-5 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
+            className="w-full text-base mt-4 md:text-lg mb-2 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="text"
             placeholder="Last Name"
             required
@@ -75,7 +77,7 @@ const AddAdmin = () => {
             onChange={(e) => {
               setAdminDetails({ ...adminDetails, email: e.target.value });
             }}
-            className="w-full text-base mt-4 md:text-lg mb-5 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
+            className="w-full text-base mt-4 md:text-lg mb-2 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="email"
             placeholder="Email"
             required
@@ -85,7 +87,7 @@ const AddAdmin = () => {
             onChange={(e) => {
               setAdminDetails({ ...adminDetails, password: e.target.value });
             }}
-            className="text-base mt-4 md:text-lg w-full mb-5 md:mb-0 text-white bg-transparent border border-dark-grey rounded-lg p-3"
+            className="text-base mt-4 md:text-lg w-full mb-2 md:mb-0 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="password"
             placeholder="Password"
             required
