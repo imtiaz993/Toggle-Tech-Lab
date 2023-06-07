@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import LoginForm from "../Components/dashboard/loginForm";
+import LoginForm from "../Components/dashboard/LoginForm";
 import DashboardPage from "../Components/dashboard/DashboardPage";
 
 const Dasboard = () => {
