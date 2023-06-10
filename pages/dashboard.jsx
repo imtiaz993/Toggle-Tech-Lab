@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import LoginForm from "../Components/dashboard/LoginForm";
 import DashboardPage from "../Components/dashboard/DashboardPage";
 
-const Dasboard = () => {
+const Dasboard = ({AllBlogs}) => {
   const [token, setToken] = useState();
   useEffect(() => {
     if (typeof sessionStorage !== "undefined") {
@@ -11,10 +11,17 @@ const Dasboard = () => {
   }, []);
   
   return token ? (
-    <DashboardPage setToken={setToken} />
+    <DashboardPage setToken={setToken} AllBlogs={AllBlogs}/>
   ) : (
     <LoginForm setToken={setToken} />
   );
 };
 
 export default Dasboard;
+
+export async function getServerSideProps() {
+  const res = await fetch("http://localhost:5000/api/blog");
+  const AllBlogs = await res.json();
+  return { props: { AllBlogs } };
+}
+

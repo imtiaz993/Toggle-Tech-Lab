@@ -5,7 +5,7 @@ import SidebarDetailWrapper from "./Components/SidebarDetailWrapper";
 const BlogDetail = ({ Blog }) => {
   return (
     <>
-      <Hero title={Blog.singleProperty.blogTitle} />
+      <Hero title={Blog.blogTitle}/>
       <SidebarDetailWrapper Blog={Blog} />
     </>
   );

@@ -4,13 +4,13 @@ import Blogs from "./Blogs";
 import AddBlog from "./AddBlog";
 import AddAdmin from "./AddAdmin";
 
-const DashboardPage = ({ setToken }) => {
+const DashboardPage = ({ setToken, AllBlogs }) => {
   const [tab, setTab] = useState("blogs");
   const getTab = () => {
     let currentTab;
     switch (tab) {
       case "blogs":
-        currentTab = <Blogs />;
+        currentTab = <Blogs AllBlogs={AllBlogs} />;
         break;
       case "add blog":
         currentTab = <AddBlog />;
