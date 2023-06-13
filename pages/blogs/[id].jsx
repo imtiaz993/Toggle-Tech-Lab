@@ -12,7 +12,7 @@ export async function getServerSideProps({ req, res, resolvedUrl }) {
   const paths=resolvedUrl.split('/')
   const id=paths[paths.length-1]
   const response = await fetch(
-    `http://localhost:5000/api/blog/${id}`
+    `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${id}`
   );
   const Blog = await response.json();
   return { props: { Blog } };

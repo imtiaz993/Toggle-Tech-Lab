@@ -12,7 +12,7 @@ const Form = () => {
   });
   const handleSubmit = () => {
     setLoading(true);
-    fetch("http://localhost:5000/api/email-sent", {
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/email-sent`, {
       method: "POST",
       body: JSON.stringify(mailData),
       headers: {

@@ -15,7 +15,7 @@ const Blogs = ({ AllBlogs }) => {
 export default Blogs;
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:5000/api/blog");
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/blog`);
   const AllBlogs = await res.json();
   return { props: { AllBlogs } };
 }

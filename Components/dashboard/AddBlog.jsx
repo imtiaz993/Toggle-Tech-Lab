@@ -52,7 +52,7 @@ const AddBlog = () => {
       formData.append(`pictures`, detail);
     });
 
-    fetch("http://localhost:5000/api/blog", {
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/blog`, {
       method: "POST",
       body: formData,
     })
@@ -67,12 +67,12 @@ const AddBlog = () => {
             content: "",
           });
           setMessage("Blog created successfully");
-          // setBlog("")
-          // setMetaTitle("")
-          // setMetaDesc("")
-          // setMainImageAlt("")
-          // setImages([])
-          // setSubFields([])
+          setBlog("")
+          setMetaTitle("")
+          setMetaDesc("")
+          setMainImageAlt("")
+          setImages([])
+          setSubFields([])
 
 
         } else {
@@ -85,7 +85,7 @@ const AddBlog = () => {
   };
 
   return (
-    <div className="lg:w-[calc(100%-256px)] mx-auto min-h-[calc(100vh-105px)]">
+    <div className="mx-auto min-h-[calc(100vh-105px)]">
       <h1 className="text-white text-xl md:text-2xl text-center mb-8">
         Create Blog
       </h1>
@@ -94,8 +94,8 @@ const AddBlog = () => {
         onSubmit={handleSubmit}
         className="flex text-white flex-col items-center justify-center"
       >
-        <div className="flex justify-between mb-4 w-full">
-          <div className="flex flex-col w-[48%]">
+        <div className="md:flex justify-between mb-4 w-full">
+          <div className="flex flex-col w-full md:w-[48%]">
             <label className="mb-1" htmlFor="blog">
               Blog Title
             </label>
@@ -108,7 +108,7 @@ const AddBlog = () => {
               id="blog"
             />
           </div>
-          <div className="flex flex-col w-[48%]">
+          <div className="flex flex-col w-full md:w-[48%]">
             <p>Thumbnail Image</p>
             <input
               required
@@ -118,8 +118,8 @@ const AddBlog = () => {
             />
           </div>
         </div>
-        <div className="flex justify-between mb-4 w-full">
-          <div className="flex flex-col w-[48%]">
+        <div className="md:flex justify-between mb-4 w-full">
+          <div className="flex flex-col w-full md:w-[48%]">
             <label className="mb-1" htmlFor="metaTitle">
               Meta Title
             </label>
@@ -132,7 +132,7 @@ const AddBlog = () => {
               id="metaTitle"
             />
           </div>
-          <div className="flex flex-col w-[48%]">
+          <div className="flex flex-col w-full md:w-[48%]">
             <label className="mb-1" htmlFor="alt">
               Alt Text
             </label>
@@ -146,7 +146,7 @@ const AddBlog = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col mb-4 w-full">
+        <div className="md:flex flex-col mb-4 w-full">
           <label className="mb-1" htmlFor="metDesc">
             Meta Description
           </label>
@@ -173,8 +173,8 @@ const AddBlog = () => {
                   Delete Section
                 </button>
               </div>
-              <div className="flex justify-between mb-4 w-full">
-                <div className="flex flex-col w-[48%]">
+              <div className="md:flex justify-between mb-4 w-full">
+                <div className="flex flex-col w-full md:w-[48%]">
                   <label className="mb-1" htmlFor={`subtitle${index}`}>
                     Sub Title
                   </label>
@@ -187,7 +187,7 @@ const AddBlog = () => {
                     onChange={(e) => handleSubFieldChange(e, index, "subtitle")}
                   />
                 </div>
-                <div className="flex flex-col w-[48%]">
+                <div className="flex flex-col w-full md:w-[48%]">
                   <p>Section Image</p>
                   <input
                     required
@@ -197,7 +197,7 @@ const AddBlog = () => {
                   />
                 </div>
               </div>
-              <div className="flex flex-col mb-4 w-full">
+              <div className="md:flex flex-col mb-4 w-full">
                 <label className="mb-1" htmlFor={`subtitle${index}`}>
                   Alt Text
                 </label>
@@ -210,7 +210,7 @@ const AddBlog = () => {
                   onChange={(e) => handleSubFieldChange(e, index, "imageAlt")}
                 />
               </div>
-              <div className="flex flex-col w-full">
+              <div className="md:flex flex-col w-full">
                 <label className="mb-1" htmlFor={`subindex${index}`}>
                   Sub Text
                 </label>

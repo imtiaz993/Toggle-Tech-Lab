@@ -9,7 +9,7 @@ const LoginForm = ({ setToken }) => {
   });
   const handleSubmit = () => {
     setLoading(true);
-    fetch("http://localhost:5000/api/user/login", {
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/user/login`, {
       method: "POST",
       body: JSON.stringify(loginData),
       headers: {

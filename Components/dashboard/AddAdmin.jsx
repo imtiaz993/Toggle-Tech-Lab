@@ -13,7 +13,7 @@ const AddAdmin = ({ AllAdmins }) => {
   });
   const handleSubmit = () => {
     setLoading(true);
-    fetch("http://localhost:5000/api/user", {
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/user`, {
       method: "POST",
       body: JSON.stringify(adminDetails),
       headers: {
@@ -49,7 +49,7 @@ const AddAdmin = ({ AllAdmins }) => {
       });
   };
   return (
-    <div className="max-w-4xl lg:w-[calc(100%-256px)] mx-auto min-h-[calc(100vh-105px)]">
+    <div className="mx-auto min-h-[calc(100vh-105px)]">
       <div className="xl:flex justify-between">
         <div className="text-white xl:w-2/5 mb-10 xl:mb-0">
           <h1 className="text-white text-xl md:text-2xl text-center mb-8">
@@ -81,7 +81,7 @@ const AddAdmin = ({ AllAdmins }) => {
                       <td className="px-4 py-4">{item.email}</td>
                       {/* <td className="px-4 py-4" onClick={()=>{
                             // setLoading(true);
-                            fetch(`http://localhost:5000/api/user/delete/${item._id}`, {
+                            fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/user/delete/${item._id}`, {
                               method: "DELETE",
                             })
                               .then((response) => response.json())

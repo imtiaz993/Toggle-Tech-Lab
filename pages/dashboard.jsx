@@ -3,6 +3,7 @@ import LoginForm from "../Components/dashboard/LoginForm";
 import DashboardPage from "../Components/dashboard/DashboardPage";
 
 const Dashboard = ({ AllBlogs, AllAdmins }) => {
+  console.log(AllAdmins)
   const [token, setToken] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -34,9 +35,9 @@ const Dashboard = ({ AllBlogs, AllAdmins }) => {
 export default Dashboard;
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:5000/api/blog");
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/blog`);
   const AllBlogs = await res.json();
-  const res1 = await fetch("http://localhost:5000/api/user/getAllUser");
+  const res1 = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/user/getAllUser`);
   const AllAdmins = await res1.json();
   return { props: { AllBlogs, AllAdmins } };
 }

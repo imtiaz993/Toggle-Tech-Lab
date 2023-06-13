@@ -9,7 +9,7 @@ const Blogs = ({ AllBlogs }) => {
 
   const handleDelete = (id) => {
     setLoading(true);
-    fetch(`http://localhost:5000/api/blog/delete/${id}`, {
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/blog/delete/${id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
@@ -29,12 +29,12 @@ const Blogs = ({ AllBlogs }) => {
   };
 
   return (
-    <div className="lg:w-[calc(100%-256px)] mx-auto min-h-[calc(100vh-105px)]">
+    <div className="min-h-[calc(100vh-105px)]">
       <h1 className="text-white text-xl md:text-2xl text-center mb-8">Blogs</h1>
       <div className={"w-full"}>
         <div
           className="w-11/12 md:w-full grid grid-cols-1 md:grid-cols-2 
-  gap-8 mt-8 max-w-screen-xxl mx-auto"
+  gap-8 mt-8 mx-auto"
         >
           {blogs.map((item, index) => (
             <div className="mb-0 md:mb-8">
