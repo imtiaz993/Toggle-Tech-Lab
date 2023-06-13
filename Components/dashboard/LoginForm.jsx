@@ -9,7 +9,7 @@ const LoginForm = ({ setToken }) => {
   });
   const handleSubmit = () => {
     setLoading(true);
-    fetch("https://toggletechlab-backend.herokuapp.com/api/user/login", {
+    fetch("http://localhost:5000/api/user/login", {
       method: "POST",
       body: JSON.stringify(loginData),
       headers: {

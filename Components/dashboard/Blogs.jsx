@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Blogs = ({ AllBlogs }) => {
+  console.log(AllBlogs)
   const [blogs, setBlogs] = useState(AllBlogs.blog);
   const [id, setId] = useState("");
   const [loading, setLoading] = useState(false);
@@ -33,7 +34,7 @@ const Blogs = ({ AllBlogs }) => {
       <div className={"w-full"}>
         <div
           className="w-11/12 md:w-full grid grid-cols-1 md:grid-cols-2 
-  gap-8 mt-8 mb-12 max-w-screen-xxl mx-auto"
+  gap-8 mt-8 max-w-screen-xxl mx-auto"
         >
           {blogs.map((item, index) => (
             <div className="mb-0 md:mb-8">

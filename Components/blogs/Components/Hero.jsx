@@ -1,6 +1,7 @@
 import React from "react";
 
-const Hero = ({ title }) => {
+const Hero = ({ Blog }) => {
+  console.log(Blog)
   return (
     <div className="relative">
       <img
@@ -14,8 +15,8 @@ const Hero = ({ title }) => {
         alt=""
       />
       <div className="absolute top-1/3 mt-8 w-full">
-        <h1 className="w-11/12  md:w-3/4 mx-auto text-2xl md:text-4xl text-white">
-          {title}
+        <h1 className="w-11/12  md:w-3/4 mx-auto text-2xl md:text-4xl md:leading-12 text-white">
+          {Blog.blogTitle}
           <br />
         </h1>
       </div>
