@@ -103,7 +103,7 @@ const PortfolioDetails = () => {
   const location = useRouter();
   const paths = location.asPath.split("/");
   const currentPath = paths[paths.length - 1].replace(/_/g, " ");
-  console.log(currentPath)
+  console.log(currentPath);
   let CurrentComponent;
   projectDetailDirectory.map((component) => {
     if (
@@ -115,6 +115,10 @@ const PortfolioDetails = () => {
   });
   return (
     <>
+      <Head>
+        <title>Toggle Tech Lab</title>
+        <meta name="description" content="" />
+      </Head>
       {CurrentComponent && <CurrentComponent />}
       <LetsTalk />
     </>

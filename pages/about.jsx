@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Hero from "../Components/about/Hero";
 import Detail from "../Components/about/Detail";
 import MissionVision from "../Components/about/MissionVision";
@@ -11,6 +12,10 @@ import LetsTalk from "../Common/LetsTalk";
 const About = () => {
   return (
     <>
+      <Head>
+        <title>Toggle Tech Lab</title>
+        <meta name="description" content="" />
+      </Head>
       <Hero />
       <Detail />
       <MissionVision />

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Hero from "../Components/home/Hero";
 import Partners from "../Common/Partners";
 import Build from "../Components/home/Build";
@@ -28,6 +29,24 @@ const Home = () => {
   };
   return (
     <>
+      <Head>
+        <title>Toggle Tech Lab</title>
+        <meta
+          name="description"
+          content="Transforming Ideas into Reality with XR Technology"
+        />
+        <meta
+          name="description"
+          content="Toggle Tech lab, Virtual Reality, VR, Augmented Reality, AR, Mixed Reality, MR,
+      immersive marketing strategies,affordable VR solutions, innovative AR campaigns,
+      VR and AR for marketing agencies, immersive event experiences, virtual reality in real estate marketing,
+      augmented reality for product launches, managing client expectations with VR and AR,
+      successful VR and AR agency partnerships, immersive marketing project management,
+      virtual reality for event planning, creative AR applications for marketing, real estate virtual tours,
+      virtual reality for corporate events, augmented reality in advertising, VR and AR for North American brands,time-saving immersive marketing tips,
+      award-winning VR and AR campaigns, VR and AR tools for marketers, leveraging AR and VR in marketing"
+        />
+      </Head>
       <Hero
         handleClickScroll={handleClickScroll}
         handleHeaderVideo={handleHeaderVideo}
