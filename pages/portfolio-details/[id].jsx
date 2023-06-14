@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import LetsTalk from "../../Common/LetsTalk";
 import { useRouter } from "next/router";
 import RNTraining from "../../Components/portfolio-details/Individual Portfolio Details/RN Training/RNTraining";
