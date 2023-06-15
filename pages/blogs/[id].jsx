@@ -3,12 +3,11 @@ import Head from "next/head";
 import BlogDetail from "../../Components/blogs/BlogDetail";
 
 const Detail = ({ Blog }) => {
-  console.log(Blog);
   return (
     <>
       <Head>
-        <title>Toggle Tech Lab</title>
-        <meta name="description" content="" />
+        <title>{Blog.singleProperty.metaTitle}</title>
+        <meta name="description" content={Blog.singleProperty.metaDesc} />
       </Head>
       <BlogDetail Blog={Blog.singleProperty} />
     </>

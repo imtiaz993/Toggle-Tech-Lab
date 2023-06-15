@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-const AddBlog = () => {
+const AddBlog = ({ blogs, setBlogs }) => {
   const [images, setImages] = useState([]);
   const [subFields, setSubFields] = useState([
-    { subtitle: "", subindex: "", altText: "" },
+    { subtitle: "", subindex: "", imageAlt: "" },
   ]);
   const [blog, setBlog] = useState("");
   const [metaTitle, setMetaTitle] = useState("");
@@ -13,7 +13,7 @@ const AddBlog = () => {
   const [loading, setLoading] = useState("");
 
   const handleAddSubField = () => {
-    setSubFields([...subFields, { subtitle: "", subindex: "", altText: "" }]);
+    setSubFields([...subFields, { subtitle: "", subindex: "", imageAlt: "" }]);
   };
 
   const handleDeleteSubField = (index) => {
@@ -59,22 +59,16 @@ const AddBlog = () => {
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
+        setBlogs([...blogs, json.blog]);
         setLoading(false);
         if (json.success) {
-          setBlogDetails({
-            title: "",
-            subtitle: "",
-            content: "",
-          });
           setMessage("Blog created successfully");
-          setBlog("")
-          setMetaTitle("")
-          setMetaDesc("")
-          setMainImageAlt("")
-          setImages([])
-          setSubFields([])
-
-
+          setBlog("");
+          setMetaTitle("");
+          setMetaDesc("");
+          setMainImageAlt("");
+          setImages([]);
+          setSubFields([]);
         } else {
           setMessage(json.message);
         }
@@ -206,7 +200,7 @@ const AddBlog = () => {
                   type="text"
                   className="w-full text-base md:text-lg mb-2 md:mb-0 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg py-1 px-3"
                   id={`imageAlt${index}`}
-                  value={subField.altText}
+                  value={subField.imageAlt}
                   onChange={(e) => handleSubFieldChange(e, index, "imageAlt")}
                 />
               </div>

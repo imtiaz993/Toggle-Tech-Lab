@@ -6,15 +6,16 @@ import AddAdmin from "./AddAdmin";
 import Appbar from "./Appbar";
 
 const DashboardPage = ({ setToken, AllBlogs, AllAdmins }) => {
+  const [blogs, setBlogs] = useState(AllBlogs.blog);
   const [tab, setTab] = useState("blogs");
   const getTab = () => {
     let currentTab;
     switch (tab) {
       case "blogs":
-        currentTab = <Blogs AllBlogs={AllBlogs} />;
+        currentTab = <Blogs blogs={blogs} setBlogs={setBlogs}/>;
         break;
       case "add blog":
-        currentTab = <AddBlog />;
+        currentTab = <AddBlog blogs={blogs} setBlogs={setBlogs}/>;
         break;
       case "add admin":
         currentTab = <AddAdmin AllAdmins={AllAdmins} />;

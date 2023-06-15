@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const Blogs = ({ AllBlogs }) => {
-  console.log(AllBlogs)
-  const [blogs, setBlogs] = useState(AllBlogs.blog);
+const Blogs = ({ blogs, setBlogs }) => {
   const [id, setId] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");

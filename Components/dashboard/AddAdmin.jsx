@@ -29,8 +29,8 @@ const AddAdmin = ({ AllAdmins }) => {
             ...admins,
             {
               firstname: adminDetails.firstname,
-              lastname: adminDetails.firstname,
-              email: adminDetails.firstname,
+              lastname: adminDetails.lastname,
+              email: adminDetails.email,
             },
           ]);
           setAdminDetails({

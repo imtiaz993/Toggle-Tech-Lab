@@ -20,7 +20,7 @@ const BlogList = ({ AllBlogs }) => {
     md:w-full md:h-80
     w-full h-full"
                   src={item.blogMainImage.url}
-                  alt=""
+                  alt={item.mainImageAlt}
                 />
               </div>
 
