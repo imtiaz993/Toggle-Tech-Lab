@@ -73,15 +73,15 @@ const Navbar = () => {
                 Case Studies
               </a>
             </Link>
-            <Link href="/blogs">
+            <Link href="/blog">
               <a
                 className={
-                  isActive === "/blogs"
+                  isActive === "/blog"
                     ? "mr-4 lg:mr-6 pb-2 text-white border-b border-white"
                     : "mr-4 lg:mr-6 pb-2 text-grey"
                 }
               >
-                Blogs
+                Blog
               </a>
             </Link>
             <Link
@@ -185,11 +185,11 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                href="/blogs"
+                href="/blog"
               >
                 <span
                   className={
-                    isActive === "/blogs"
+                    isActive === "/blog"
                       ? "mb-4 text-white"
                       : "mb-4 text-grey"
                   }
@@ -197,7 +197,7 @@ const Navbar = () => {
                     setShowOptions(!showOptions);
                   }}
                 >
-                  Blogs
+                  Blog
                 </span>
               </Link>
               <Link href="/contact">
