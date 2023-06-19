@@ -9,7 +9,7 @@ const BlogList = ({ AllBlogs }) => {
   gap-8 mt-8 mb-12 max-w-screen-xxl mx-auto"
       >
         {AllBlogs.blog.map((item, index) => (
-          <Link key={index} href={`/blogs/${item._id}`}>
+          <Link key={index} href={`/blog/${item._id}`}>
             <div className="mb-4 cursor-pointer">
               <div className="relative">
                 <img
